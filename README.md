@@ -1,3 +1,3 @@
 # 349FinalProject
 
-Final Project
+CSUF Final Project // By Joseph Rangel, ,
