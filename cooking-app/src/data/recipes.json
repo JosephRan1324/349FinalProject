@@ -1,0 +1,29 @@
+[
+    {
+      "id": "1",
+      "title": "Spaghetti Carbonara",
+      "thumbnail": "https://via.placeholder.com/240x150.png?text=Carbonara",
+      "prepTime": 30,
+      "difficulty": "Easy",
+      "ingredients": ["spaghetti", "eggs", "parmesan", "bacon"],
+      "instructions": "Boil pasta until al dente. Fry bacon until crisp. Whisk eggs and parmesan, then combine off heat with pasta and bacon. Season to taste."
+    },
+    {
+      "id": "2",
+      "title": "Vegetable Stir Fry",
+      "thumbnail": "https://via.placeholder.com/240x150.png?text=Stir+Fry",
+      "prepTime": 20,
+      "difficulty": "Intermediate",
+      "ingredients": ["broccoli", "carrot", "bell pepper", "soy sauce", "garlic"],
+      "instructions": "Chop vegetables. Stir-fry garlic then veggies. Add soy sauce and cook until tender-crisp. Serve over rice."
+    },
+    {
+      "id": "3",
+      "title": "Chocolate Chip Cookies",
+      "thumbnail": "https://via.placeholder.com/240x150.png?text=Cookies",
+      "prepTime": 45,
+      "difficulty": "Easy",
+      "ingredients": ["flour", "butter", "sugar", "eggs", "chocolate chips"],
+      "instructions": "Cream butter and sugar. Add eggs. Mix in flour and chips. Scoop onto baking sheet and bake at 350°F for 10–12 minutes."
+    }
+  ]

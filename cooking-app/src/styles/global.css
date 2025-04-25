@@ -1,0 +1,179 @@
+/* src/styles/global.css */
+
+/* 1. Reset & Box-sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* 2. CSS Variables for theming */
+:root {
+  --color-primary: #ff6f61;
+  --color-secondary: #fff5f0;
+  --color-bg: #fafafa;
+  --color-text: #333;
+  --color-card-bg: #ffffff;
+  --color-accent: #ffb88c;
+  --radius: 0.5rem;
+  --transition: 0.3s ease;
+  --max-width: 1200px;
+  --gap: 1rem;
+  --font-base: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* 3. Global styles */
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-base);
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* 4. Container */
+.app-container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: var(--gap);
+}
+
+/* 5. Header */
+header {
+  background-color: var(--color-primary);
+  color: #fff;
+  padding: var(--gap) 0;
+  text-align: center;
+  margin-bottom: var(--gap);
+}
+
+/* 6. Grid layout for recipe cards */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: var(--gap);
+}
+
+/* 7. Card styles */
+.card {
+  background-color: var(--color-card-bg);
+  border-radius: var(--radius);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card h3 {
+  font-size: 1.1rem;
+  margin: var(--gap) 0 0.5rem;
+  padding: 0 var(--gap);
+}
+
+.card p {
+  font-size: 0.9rem;
+  padding: 0  var(--gap) var(--gap);
+}
+
+/* 8. Search bar */
+.search-bar {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: var(--gap);
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 0.5rem;
+  border: 2px solid var(--color-primary);
+  border-radius: var(--radius);
+  font-size: 1rem;
+}
+
+.search-bar button {
+  padding: 0.5rem 1rem;
+  background-color: var(--color-primary);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: background-color var(--transition);
+}
+
+.search-bar button:hover {
+  background-color: var(--color-accent);
+}
+
+/* 9. Filter panel */
+.filter-panel {
+  margin-bottom: var(--gap);
+  display: flex;
+  gap: var(--gap);
+  flex-wrap: wrap;
+}
+
+/* 10. Detail view container */
+.recipe-detail {
+  background-color: var(--color-card-bg);
+  padding: var(--gap);
+  border-radius: var(--radius);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* 11. Favorites & Meal Planner placeholders */
+.favorites,
+.meal-planner {
+  padding: var(--gap);
+}
+
+/* 12. Button utility */
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: var(--radius);
+  background-color: var(--color-primary);
+  color: #fff;
+  cursor: pointer;
+  transition: background-color var(--transition);
+}
+
+.btn:hover {
+  background-color: var(--color-accent);
+}
+
+/* 13. Dark/Light mode toggle (requires JS to add .dark-mode to <body>) */
+body.dark-mode {
+  --color-bg: #2b2b2b;
+  --color-text: #e0e0e0;
+  --color-card-bg: #3c3c3c;
+  --color-primary: #ff8a65;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
