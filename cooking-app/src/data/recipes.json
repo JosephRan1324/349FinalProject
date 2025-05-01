@@ -182,2703 +182,1310 @@
     }
   },
   {
-    "id": 11,
-    "title": "Pad Thai",
-    "description": "A delicious pad thai recipe.",
-    "ingredients": [
-      "Pork",
-      "Chicken",
-      "Garlic",
-      "Mushrooms",
-      "Rice",
-      "Butter"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Pad+Thai",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Intermediate",
-    "prepTime": "22 minutes",
-    "nutrition": {
-      "calories": 749,
-      "protein_g": 36.3,
-      "fat_g": 8.2,
-      "carbs_g": 91.6
-    }
-  },
-  {
-    "id": 12,
+    "id": 7,
     "title": "Beef Stroganoff",
-    "description": "A delicious beef stroganoff recipe.",
+    "description": "A creamy Russian dish made with sautéed beef and mushrooms in a sour cream sauce.",
     "ingredients": [
-      "Spices",
-      "Milk",
-      "Pork",
-      "Rice",
-      "Broccoli",
-      "Herbs"
+      "Beef sirloin",
+      "Mushrooms",
+      "Onions",
+      "Sour cream",
+      "Beef broth",
+      "Butter",
+      "Flour",
+      "Egg noodles"
     ],
-    "image": "https://source.unsplash.com/400x300/?Beef+Stroganoff",
+    "image": "/images/BeefStroganoff.png",
     "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
+      "Slice beef thinly across the grain.",
+      "Sauté onions and mushrooms in butter until soft.",
+      "Add beef and cook until browned.",
+      "Stir in flour, then add broth gradually.",
+      "Simmer for 10 minutes, then stir in sour cream.",
+      "Serve over cooked egg noodles."
     ],
     "difficulty": "Expert",
-    "prepTime": "13 minutes",
+    "prepTime": "30 minutes",
     "nutrition": {
-      "calories": 306,
-      "protein_g": 24.0,
-      "fat_g": 34.2,
-      "carbs_g": 62.9
+      "calories": 450,
+      "protein_g": 35.0,
+      "fat_g": 25.0,
+      "carbs_g": 28.0
     }
   },
   {
-    "id": 13,
-    "title": "BBQ Ribs",
-    "description": "A delicious bbq ribs recipe.",
+    "id": 8,
+    "title": "Tomato Soup",
+    "description": "A warm and comforting classic tomato soup.",
     "ingredients": [
-      "Mushrooms",
-      "Salt",
-      "Pasta",
-      "Broccoli",
-      "Spices",
-      "Cheese"
+      "Tomatoes",
+      "Onion",
+      "Garlic",
+      "Olive oil",
+      "Vegetable broth",
+      "Cream",
+      "Basil",
+      "Salt and pepper"
     ],
-    "image": "https://source.unsplash.com/400x300/?BBQ+Ribs",
+    "image": "/images/TomatoSoup.png",
     "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
+      "Sauté onions and garlic in olive oil.",
+      "Add chopped tomatoes and cook for 10 minutes.",
+      "Pour in broth and simmer for 15 minutes.",
+      "Blend until smooth, then add cream and seasonings.",
+      "Simmer another 5 minutes and serve hot with basil."
     ],
     "difficulty": "Easy",
     "prepTime": "25 minutes",
     "nutrition": {
-      "calories": 702,
-      "protein_g": 39.6,
-      "fat_g": 32.8,
-      "carbs_g": 43.6
+      "calories": 180,
+      "protein_g": 5.0,
+      "fat_g": 10.0,
+      "carbs_g": 18.0
     }
   },
   {
-    "id": 14,
-    "title": "Tomato Soup",
-    "description": "A delicious tomato soup recipe.",
-    "ingredients": [
-      "Butter",
-      "Carrots",
-      "Cheese",
-      "Tofu",
-      "Herbs",
-      "Spices"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Tomato+Soup",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Easy",
-    "prepTime": "21 minutes",
-    "nutrition": {
-      "calories": 276,
-      "protein_g": 37.8,
-      "fat_g": 11.7,
-      "carbs_g": 50.2
-    }
-  },
-  {
-    "id": 15,
+    "id": 9,
     "title": "Spaghetti Carbonara",
-    "description": "A delicious spaghetti carbonara recipe.",
+    "description": "A rich and creamy pasta dish made with eggs, cheese, pancetta, and pepper.",
     "ingredients": [
-      "Chicken",
-      "Pepper",
-      "Garlic",
-      "Herbs",
-      "Spices",
-      "Pork"
+      "Spaghetti",
+      "Eggs",
+      "Parmesan cheese",
+      "Pancetta",
+      "Black pepper",
+      "Salt"
     ],
-    "image": "https://source.unsplash.com/400x300/?Spaghetti+Carbonara",
+    "image": "/images/SpaghettiCarbonara.png",
     "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
+      "Cook spaghetti until al dente.",
+      "Sauté pancetta until crispy.",
+      "In a bowl, mix eggs, cheese, and pepper.",
+      "Drain pasta and combine quickly with pancetta and egg mixture off the heat.",
+      "Toss until creamy and serve immediately."
     ],
     "difficulty": "Easy",
-    "prepTime": "19 minutes",
+    "prepTime": "20 minutes",
     "nutrition": {
-      "calories": 422,
-      "protein_g": 19.7,
-      "fat_g": 13.5,
-      "carbs_g": 66.3
+      "calories": 410,
+      "protein_g": 18.0,
+      "fat_g": 15.0,
+      "carbs_g": 50.0
     }
   },
   {
-    "id": 16,
+    "id": 10,
     "title": "Eggplant Parmesan",
-    "description": "A delicious eggplant parmesan recipe.",
+    "description": "Baked eggplant slices layered with marinara sauce and melted cheese.",
     "ingredients": [
-      "Potatoes",
+      "Eggplant",
+      "Marinara sauce",
+      "Mozzarella cheese",
+      "Parmesan cheese",
+      "Eggs",
+      "Breadcrumbs",
       "Olive oil",
-      "Peppers",
-      "Mushrooms",
-      "Spinach",
-      "Spices"
+      "Basil"
     ],
-    "image": "https://source.unsplash.com/400x300/?Eggplant+Parmesan",
+    "image": "/images/EggplantParmesan.png",
     "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
+      "Slice eggplant and sprinkle with salt; let sit to remove moisture.",
+      "Dip slices in egg, then breadcrumbs; fry until golden.",
+      "Layer fried eggplant, marinara, and cheeses in a baking dish.",
+      "Bake at 375°F (190°C) for 25 minutes.",
+      "Garnish with basil and serve."
     ],
     "difficulty": "Intermediate",
-    "prepTime": "22 minutes",
-    "nutrition": {
-      "calories": 332,
-      "protein_g": 24.4,
-      "fat_g": 13.5,
-      "carbs_g": 97.9
-    }
-  },
-  {
-    "id": 17,
-    "title": "Fish and Chips",
-    "description": "A delicious fish and chips recipe.",
-    "ingredients": [
-      "Butter",
-      "Potatoes",
-      "Onions",
-      "Peppers",
-      "Pasta",
-      "Spinach"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Fish+and+Chips",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Expert",
-    "prepTime": "29 minutes",
-    "nutrition": {
-      "calories": 617,
-      "protein_g": 14.9,
-      "fat_g": 20.6,
-      "carbs_g": 46.8
-    }
-  },
-  {
-    "id": 18,
-    "title": "Chicken Alfredo",
-    "description": "A delicious chicken alfredo recipe.",
-    "ingredients": [
-      "Salt",
-      "Onions",
-      "Tomatoes",
-      "Pasta",
-      "Mushrooms",
-      "Chicken"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Chicken+Alfredo",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Easy",
     "prepTime": "40 minutes",
     "nutrition": {
-      "calories": 454,
-      "protein_g": 34.8,
-      "fat_g": 30.6,
-      "carbs_g": 39.0
-    }
-  },
-  {
-    "id": 19,
-    "title": "Fish and Chips",
-    "description": "A delicious fish and chips recipe.",
-    "ingredients": [
-      "Spices",
-      "Cheese",
-      "Olive oil",
-      "Herbs",
-      "Pasta",
-      "Tomatoes"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Fish+and+Chips",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Expert",
-    "prepTime": "10 minutes",
-    "nutrition": {
-      "calories": 435,
-      "protein_g": 31.4,
-      "fat_g": 22.3,
-      "carbs_g": 34.9
-    }
-  },
-  {
-    "id": 20,
-    "title": "Avocado Toast",
-    "description": "A delicious avocado toast recipe.",
-    "ingredients": [
-      "Shrimp",
-      "Milk",
-      "Potatoes",
-      "Carrots",
-      "Olive oil",
-      "Tomatoes"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Avocado+Toast",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Intermediate",
-    "prepTime": "19 minutes",
-    "nutrition": {
-      "calories": 323,
-      "protein_g": 23.6,
-      "fat_g": 26.0,
-      "carbs_g": 80.4
-    }
-  },
-  {
-    "id": 21,
-    "title": "Greek Salad",
-    "description": "A delicious greek salad recipe.",
-    "ingredients": [
-      "Olive oil",
-      "Potatoes",
-      "Salmon",
-      "Shrimp",
-      "Beef",
-      "Pork"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Greek+Salad",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Expert",
-    "prepTime": "52 minutes",
-    "nutrition": {
-      "calories": 301,
-      "protein_g": 23.3,
-      "fat_g": 34.7,
-      "carbs_g": 40.2
-    }
-  },
-  {
-    "id": 22,
-    "title": "BBQ Ribs",
-    "description": "A delicious bbq ribs recipe.",
-    "ingredients": [
-      "Salt",
-      "Milk",
-      "Rice",
-      "Chicken",
-      "Broccoli",
-      "Peppers"
-    ],
-    "image": "https://source.unsplash.com/400x300/?BBQ+Ribs",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Intermediate",
-    "prepTime": "47 minutes",
-    "nutrition": {
-      "calories": 524,
-      "protein_g": 32.2,
-      "fat_g": 22.5,
-      "carbs_g": 24.6
-    }
-  },
-  {
-    "id": 23,
-    "title": "Chicken Tikka Masala",
-    "description": "A delicious chicken tikka masala recipe.",
-    "ingredients": [
-      "Herbs",
-      "Carrots",
-      "Butter",
-      "Salmon",
-      "Mushrooms",
-      "Pepper"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Chicken+Tikka+Masala",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Intermediate",
-    "prepTime": "45 minutes",
-    "nutrition": {
-      "calories": 460,
-      "protein_g": 13.4,
-      "fat_g": 11.0,
-      "carbs_g": 74.5
-    }
-  },
-  {
-    "id": 24,
-    "title": "Pumpkin Pie",
-    "description": "A delicious pumpkin pie recipe.",
-    "ingredients": [
-      "Pasta",
-      "Spinach",
-      "Beef",
-      "Spices",
-      "Mushrooms",
-      "Olive oil"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Pumpkin+Pie",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Intermediate",
-    "prepTime": "48 minutes",
-    "nutrition": {
-      "calories": 512,
-      "protein_g": 14.4,
-      "fat_g": 32.8,
+      "calories": 350,
+      "protein_g": 17.0,
+      "fat_g": 22.0,
       "carbs_g": 25.0
     }
   },
   {
-    "id": 25,
-    "title": "Caesar Salad",
-    "description": "A delicious caesar salad recipe.",
-    "ingredients": [
-      "Spinach",
-      "Cheese",
-      "Butter",
-      "Broccoli",
-      "Pasta",
-      "Onions"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Caesar+Salad",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Expert",
-    "prepTime": "24 minutes",
-    "nutrition": {
-      "calories": 360,
-      "protein_g": 27.6,
-      "fat_g": 13.7,
-      "carbs_g": 81.3
-    }
-  },
-  {
-    "id": 26,
-    "title": "Shrimp Scampi",
-    "description": "A delicious shrimp scampi recipe.",
-    "ingredients": [
-      "Pork",
-      "Pasta",
-      "Carrots",
-      "Tofu",
-      "Garlic",
-      "Beef"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Shrimp+Scampi",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Easy",
-    "prepTime": "25 minutes",
-    "nutrition": {
-      "calories": 476,
-      "protein_g": 15.3,
-      "fat_g": 11.9,
-      "carbs_g": 77.5
-    }
-  },
-  {
-    "id": 27,
-    "title": "Tomato Soup",
-    "description": "A delicious tomato soup recipe.",
-    "ingredients": [
-      "Rice",
-      "Mushrooms",
-      "Potatoes",
-      "Salt",
-      "Shrimp",
-      "Spinach"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Tomato+Soup",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Expert",
-    "prepTime": "29 minutes",
-    "nutrition": {
-      "calories": 279,
-      "protein_g": 19.7,
-      "fat_g": 19.7,
-      "carbs_g": 61.7
-    }
-  },
-  {
-    "id": 28,
-    "title": "Beef Stroganoff",
-    "description": "A delicious beef stroganoff recipe.",
-    "ingredients": [
-      "Butter",
-      "Chicken",
-      "Pork",
-      "Potatoes",
-      "Onions",
-      "Pepper"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Beef+Stroganoff",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Intermediate",
-    "prepTime": "42 minutes",
-    "nutrition": {
-      "calories": 636,
-      "protein_g": 27.1,
-      "fat_g": 15.8,
-      "carbs_g": 77.8
-    }
-  },
-  {
-    "id": 29,
-    "title": "Chicken Alfredo",
-    "description": "A delicious chicken alfredo recipe.",
-    "ingredients": [
-      "Butter",
-      "Salt",
-      "Tomatoes",
-      "Chicken",
-      "Spices",
-      "Mushrooms"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Chicken+Alfredo",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Intermediate",
-    "prepTime": "27 minutes",
-    "nutrition": {
-      "calories": 446,
-      "protein_g": 35.3,
-      "fat_g": 10.1,
-      "carbs_g": 66.8
-    }
-  },
-  {
-    "id": 30,
-    "title": "Mac and Cheese",
-    "description": "A delicious mac and cheese recipe.",
-    "ingredients": [
-      "Salmon",
-      "Pork",
-      "Tofu",
-      "Tomatoes",
-      "Salt",
-      "Spinach"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Mac+and+Cheese",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Expert",
-    "prepTime": "32 minutes",
-    "nutrition": {
-      "calories": 476,
-      "protein_g": 12.0,
-      "fat_g": 34.6,
-      "carbs_g": 20.7
-    }
-  },
-  {
-    "id": 31,
-    "title": "Pumpkin Pie",
-    "description": "A delicious pumpkin pie recipe.",
-    "ingredients": [
-      "Spinach",
-      "Peppers",
-      "Chicken",
-      "Carrots",
-      "Butter",
-      "Olive oil"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Pumpkin+Pie",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Easy",
-    "prepTime": "40 minutes",
-    "nutrition": {
-      "calories": 318,
-      "protein_g": 13.2,
-      "fat_g": 13.7,
-      "carbs_g": 76.2
-    }
-  },
-  {
-    "id": 32,
-    "title": "Grilled Salmon",
-    "description": "A delicious grilled salmon recipe.",
-    "ingredients": [
-      "Spinach",
-      "Tofu",
-      "Potatoes",
-      "Salt",
-      "Shrimp",
-      "Mushrooms"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Grilled+Salmon",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Easy",
-    "prepTime": "57 minutes",
-    "nutrition": {
-      "calories": 278,
-      "protein_g": 18.3,
-      "fat_g": 25.4,
-      "carbs_g": 52.3
-    }
-  },
-  {
-    "id": 33,
-    "title": "Fish and Chips",
-    "description": "A delicious fish and chips recipe.",
-    "ingredients": [
-      "Pasta",
-      "Mushrooms",
-      "Pork",
-      "Potatoes",
-      "Butter",
-      "Spinach"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Fish+and+Chips",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Intermediate",
-    "prepTime": "58 minutes",
-    "nutrition": {
-      "calories": 728,
-      "protein_g": 37.0,
-      "fat_g": 30.7,
-      "carbs_g": 64.5
-    }
-  },
-  {
-    "id": 34,
-    "title": "Pad Thai",
-    "description": "A delicious pad thai recipe.",
-    "ingredients": [
-      "Pepper",
-      "Rice",
-      "Olive oil",
-      "Pasta",
-      "Butter",
-      "Cheese"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Pad+Thai",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Intermediate",
-    "prepTime": "23 minutes",
-    "nutrition": {
-      "calories": 481,
-      "protein_g": 17.0,
-      "fat_g": 12.3,
-      "carbs_g": 25.5
-    }
-  },
-  {
-    "id": 35,
-    "title": "Caesar Salad",
-    "description": "A delicious caesar salad recipe.",
-    "ingredients": [
-      "Beef",
-      "Tomatoes",
-      "Pork",
-      "Milk",
-      "Tofu",
-      "Mushrooms"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Caesar+Salad",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Expert",
-    "prepTime": "21 minutes",
-    "nutrition": {
-      "calories": 782,
-      "protein_g": 22.1,
-      "fat_g": 7.3,
-      "carbs_g": 56.5
-    }
-  },
-  {
-    "id": 36,
-    "title": "Pad Thai",
-    "description": "A delicious pad thai recipe.",
-    "ingredients": [
-      "Peppers",
-      "Butter",
-      "Carrots",
-      "Mushrooms",
-      "Onions",
-      "Herbs"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Pad+Thai",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Expert",
-    "prepTime": "11 minutes",
-    "nutrition": {
-      "calories": 507,
-      "protein_g": 26.1,
-      "fat_g": 31.0,
-      "carbs_g": 55.5
-    }
-  },
-  {
-    "id": 37,
-    "title": "Beef Tacos",
-    "description": "A delicious beef tacos recipe.",
-    "ingredients": [
-      "Milk",
-      "Carrots",
-      "Herbs",
-      "Rice",
-      "Salt",
-      "Garlic"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Beef+Tacos",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Easy",
-    "prepTime": "38 minutes",
-    "nutrition": {
-      "calories": 580,
-      "protein_g": 20.3,
-      "fat_g": 13.6,
-      "carbs_g": 89.8
-    }
-  },
-  {
-    "id": 38,
-    "title": "Beef Stroganoff",
-    "description": "A delicious beef stroganoff recipe.",
-    "ingredients": [
-      "Cheese",
-      "Butter",
-      "Pasta",
-      "Spinach",
-      "Beef",
-      "Potatoes"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Beef+Stroganoff",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Easy",
-    "prepTime": "13 minutes",
-    "nutrition": {
-      "calories": 649,
-      "protein_g": 25.3,
-      "fat_g": 27.6,
-      "carbs_g": 83.9
-    }
-  },
-  {
-    "id": 39,
-    "title": "Shrimp Scampi",
-    "description": "A delicious shrimp scampi recipe.",
-    "ingredients": [
-      "Onions",
-      "Garlic",
-      "Tofu",
-      "Beef",
-      "Pasta",
-      "Broccoli"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Shrimp+Scampi",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Intermediate",
-    "prepTime": "27 minutes",
-    "nutrition": {
-      "calories": 799,
-      "protein_g": 11.1,
-      "fat_g": 6.3,
-      "carbs_g": 90.0
-    }
-  },
-  {
-    "id": 40,
-    "title": "Lamb Curry",
-    "description": "A delicious lamb curry recipe.",
-    "ingredients": [
-      "Tomatoes",
-      "Pork",
-      "Beef",
-      "Onions",
-      "Salmon",
-      "Salt"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Lamb+Curry",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Easy",
-    "prepTime": "19 minutes",
-    "nutrition": {
-      "calories": 383,
-      "protein_g": 31.7,
-      "fat_g": 22.2,
-      "carbs_g": 91.6
-    }
-  },
-  {
-    "id": 41,
-    "title": "Pad Thai",
-    "description": "A delicious pad thai recipe.",
-    "ingredients": [
-      "Olive oil",
-      "Broccoli",
-      "Carrots",
-      "Cheese",
-      "Herbs",
-      "Shrimp"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Pad+Thai",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Intermediate",
-    "prepTime": "54 minutes",
-    "nutrition": {
-      "calories": 350,
-      "protein_g": 27.6,
-      "fat_g": 15.0,
-      "carbs_g": 81.9
-    }
-  },
-  {
-    "id": 42,
-    "title": "Shrimp Scampi",
-    "description": "A delicious shrimp scampi recipe.",
-    "ingredients": [
-      "Carrots",
-      "Pork",
-      "Cheese",
-      "Broccoli",
-      "Spinach",
-      "Tofu"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Shrimp+Scampi",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Easy",
-    "prepTime": "60 minutes",
-    "nutrition": {
-      "calories": 482,
-      "protein_g": 25.5,
-      "fat_g": 10.4,
-      "carbs_g": 77.3
-    }
-  },
-  {
-    "id": 43,
-    "title": "Beef Tacos",
-    "description": "A delicious beef tacos recipe.",
-    "ingredients": [
-      "Chicken",
-      "Onions",
-      "Cheese",
-      "Salt",
-      "Butter",
-      "Salmon"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Beef+Tacos",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Expert",
-    "prepTime": "13 minutes",
-    "nutrition": {
-      "calories": 617,
-      "protein_g": 39.2,
-      "fat_g": 10.8,
-      "carbs_g": 37.0
-    }
-  },
-  {
-    "id": 44,
-    "title": "Lamb Curry",
-    "description": "A delicious lamb curry recipe.",
-    "ingredients": [
-      "Chicken",
-      "Salt",
-      "Tofu",
-      "Carrots",
-      "Spinach",
-      "Herbs"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Lamb+Curry",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Easy",
-    "prepTime": "35 minutes",
-    "nutrition": {
-      "calories": 734,
-      "protein_g": 15.6,
-      "fat_g": 14.3,
-      "carbs_g": 40.1
-    }
-  },
-  {
-    "id": 45,
-    "title": "Beef Stroganoff",
-    "description": "A delicious beef stroganoff recipe.",
-    "ingredients": [
-      "Onions",
-      "Butter",
-      "Potatoes",
-      "Salmon",
-      "Carrots",
-      "Salt"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Beef+Stroganoff",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Intermediate",
-    "prepTime": "18 minutes",
-    "nutrition": {
-      "calories": 734,
-      "protein_g": 37.8,
-      "fat_g": 31.1,
-      "carbs_g": 48.9
-    }
-  },
-  {
-    "id": 46,
-    "title": "Beef Stroganoff",
-    "description": "A delicious beef stroganoff recipe.",
-    "ingredients": [
-      "Pasta",
-      "Mushrooms",
-      "Potatoes",
-      "Spices",
-      "Beef",
-      "Butter"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Beef+Stroganoff",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Intermediate",
-    "prepTime": "46 minutes",
-    "nutrition": {
-      "calories": 407,
-      "protein_g": 38.6,
-      "fat_g": 33.1,
-      "carbs_g": 91.3
-    }
-  },
-  {
-    "id": 47,
-    "title": "Fish and Chips",
-    "description": "A delicious fish and chips recipe.",
-    "ingredients": [
-      "Milk",
-      "Broccoli",
-      "Tomatoes",
-      "Cheese",
-      "Herbs",
-      "Potatoes"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Fish+and+Chips",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Easy",
-    "prepTime": "46 minutes",
-    "nutrition": {
-      "calories": 261,
-      "protein_g": 17.9,
-      "fat_g": 20.6,
-      "carbs_g": 79.6
-    }
-  },
-  {
-    "id": 48,
-    "title": "Tomato Soup",
-    "description": "A delicious tomato soup recipe.",
-    "ingredients": [
-      "Garlic",
-      "Pepper",
-      "Rice",
-      "Broccoli",
-      "Shrimp",
-      "Pasta"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Tomato+Soup",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Intermediate",
-    "prepTime": "21 minutes",
-    "nutrition": {
-      "calories": 254,
-      "protein_g": 10.1,
-      "fat_g": 12.7,
-      "carbs_g": 88.2
-    }
-  },
-  {
-    "id": 49,
-    "title": "Greek Salad",
-    "description": "A delicious greek salad recipe.",
-    "ingredients": [
-      "Onions",
-      "Carrots",
-      "Beef",
-      "Pork",
-      "Chicken",
-      "Tofu"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Greek+Salad",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Expert",
-    "prepTime": "12 minutes",
-    "nutrition": {
-      "calories": 506,
-      "protein_g": 22.8,
-      "fat_g": 23.5,
-      "carbs_g": 33.8
-    }
-  },
-  {
-    "id": 50,
-    "title": "Caesar Salad",
-    "description": "A delicious caesar salad recipe.",
-    "ingredients": [
-      "Spinach",
-      "Beef",
-      "Pepper",
-      "Spices",
-      "Chicken",
-      "Pasta"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Caesar+Salad",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Expert",
-    "prepTime": "34 minutes",
-    "nutrition": {
-      "calories": 261,
-      "protein_g": 34.3,
-      "fat_g": 30.0,
-      "carbs_g": 30.1
-    }
-  },
-  {
-    "id": 51,
-    "title": "Greek Salad",
-    "description": "A delicious greek salad recipe.",
-    "ingredients": [
-      "Tofu",
-      "Cheese",
-      "Milk",
-      "Peppers",
-      "Spinach",
-      "Olive oil"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Greek+Salad",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Easy",
-    "prepTime": "16 minutes",
-    "nutrition": {
-      "calories": 307,
-      "protein_g": 16.2,
-      "fat_g": 29.0,
-      "carbs_g": 28.9
-    }
-  },
-  {
-    "id": 52,
-    "title": "Shrimp Scampi",
-    "description": "A delicious shrimp scampi recipe.",
-    "ingredients": [
-      "Garlic",
-      "Cheese",
-      "Butter",
-      "Pepper",
-      "Spices",
-      "Potatoes"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Shrimp+Scampi",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Easy",
-    "prepTime": "15 minutes",
-    "nutrition": {
-      "calories": 558,
-      "protein_g": 10.6,
-      "fat_g": 28.4,
-      "carbs_g": 43.3
-    }
-  },
-  {
-    "id": 53,
-    "title": "Spaghetti Carbonara",
-    "description": "A delicious spaghetti carbonara recipe.",
-    "ingredients": [
-      "Butter",
-      "Milk",
-      "Tofu",
-      "Pork",
-      "Pasta",
-      "Peppers"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Spaghetti+Carbonara",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Expert",
-    "prepTime": "52 minutes",
-    "nutrition": {
-      "calories": 288,
-      "protein_g": 30.0,
-      "fat_g": 11.6,
-      "carbs_g": 42.7
-    }
-  },
-  {
-    "id": 54,
-    "title": "Chicken Alfredo",
-    "description": "A delicious chicken alfredo recipe.",
-    "ingredients": [
-      "Garlic",
-      "Olive oil",
-      "Milk",
-      "Pasta",
-      "Shrimp",
-      "Tomatoes"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Chicken+Alfredo",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Intermediate",
-    "prepTime": "33 minutes",
-    "nutrition": {
-      "calories": 708,
-      "protein_g": 22.5,
-      "fat_g": 22.3,
-      "carbs_g": 29.5
-    }
-  },
-  {
-    "id": 55,
-    "title": "Vegetable Stir Fry",
-    "description": "A delicious vegetable stir fry recipe.",
-    "ingredients": [
-      "Beef",
-      "Pepper",
-      "Herbs",
-      "Shrimp",
-      "Pork",
-      "Peppers"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Vegetable+Stir+Fry",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Easy",
-    "prepTime": "12 minutes",
-    "nutrition": {
-      "calories": 291,
-      "protein_g": 36.1,
-      "fat_g": 15.8,
-      "carbs_g": 24.7
-    }
-  },
-  {
-    "id": 56,
-    "title": "Grilled Salmon",
-    "description": "A delicious grilled salmon recipe.",
-    "ingredients": [
-      "Cheese",
-      "Milk",
-      "Garlic",
-      "Spinach",
-      "Potatoes",
-      "Shrimp"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Grilled+Salmon",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Expert",
-    "prepTime": "15 minutes",
-    "nutrition": {
-      "calories": 591,
-      "protein_g": 14.7,
-      "fat_g": 15.2,
-      "carbs_g": 30.6
-    }
-  },
-  {
-    "id": 57,
-    "title": "Chicken Alfredo",
-    "description": "A delicious chicken alfredo recipe.",
-    "ingredients": [
-      "Chicken",
-      "Spinach",
-      "Rice",
-      "Shrimp",
-      "Pepper",
-      "Salt"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Chicken+Alfredo",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Expert",
-    "prepTime": "12 minutes",
-    "nutrition": {
-      "calories": 357,
-      "protein_g": 14.8,
-      "fat_g": 14.1,
-      "carbs_g": 80.0
-    }
-  },
-  {
-    "id": 58,
-    "title": "Pumpkin Pie",
-    "description": "A delicious pumpkin pie recipe.",
-    "ingredients": [
-      "Tofu",
-      "Cheese",
-      "Milk",
-      "Herbs",
-      "Carrots",
-      "Broccoli"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Pumpkin+Pie",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Expert",
-    "prepTime": "57 minutes",
-    "nutrition": {
-      "calories": 590,
-      "protein_g": 34.9,
-      "fat_g": 24.7,
-      "carbs_g": 95.4
-    }
-  },
-  {
-    "id": 59,
-    "title": "Pumpkin Pie",
-    "description": "A delicious pumpkin pie recipe.",
-    "ingredients": [
-      "Olive oil",
-      "Herbs",
-      "Tofu",
-      "Salt",
-      "Pork",
-      "Chicken"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Pumpkin+Pie",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Expert",
-    "prepTime": "14 minutes",
-    "nutrition": {
-      "calories": 465,
-      "protein_g": 22.7,
-      "fat_g": 16.4,
-      "carbs_g": 59.4
-    }
-  },
-  {
-    "id": 60,
-    "title": "Fish and Chips",
-    "description": "A delicious fish and chips recipe.",
-    "ingredients": [
-      "Pasta",
-      "Cheese",
-      "Milk",
-      "Peppers",
-      "Herbs",
-      "Chicken"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Fish+and+Chips",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Expert",
-    "prepTime": "31 minutes",
-    "nutrition": {
-      "calories": 614,
-      "protein_g": 28.0,
-      "fat_g": 5.3,
-      "carbs_g": 31.0
-    }
-  },
-  {
-    "id": 61,
-    "title": "Mushroom Risotto",
-    "description": "A delicious mushroom risotto recipe.",
-    "ingredients": [
-      "Broccoli",
-      "Chicken",
-      "Butter",
-      "Tomatoes",
-      "Pasta",
-      "Mushrooms"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Mushroom+Risotto",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Easy",
-    "prepTime": "48 minutes",
-    "nutrition": {
-      "calories": 607,
-      "protein_g": 25.8,
-      "fat_g": 20.7,
-      "carbs_g": 63.9
-    }
-  },
-  {
-    "id": 62,
-    "title": "Pumpkin Pie",
-    "description": "A delicious pumpkin pie recipe.",
-    "ingredients": [
-      "Chicken",
-      "Pepper",
-      "Milk",
-      "Tofu",
-      "Pasta",
-      "Olive oil"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Pumpkin+Pie",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Intermediate",
-    "prepTime": "44 minutes",
-    "nutrition": {
-      "calories": 257,
-      "protein_g": 31.3,
-      "fat_g": 14.4,
-      "carbs_g": 63.7
-    }
-  },
-  {
-    "id": 63,
-    "title": "Lamb Curry",
-    "description": "A delicious lamb curry recipe.",
-    "ingredients": [
-      "Chicken",
-      "Rice",
-      "Shrimp",
-      "Pepper",
-      "Salt",
-      "Peppers"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Lamb+Curry",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Expert",
-    "prepTime": "29 minutes",
-    "nutrition": {
-      "calories": 277,
-      "protein_g": 29.0,
-      "fat_g": 13.5,
-      "carbs_g": 46.0
-    }
-  },
-  {
-    "id": 64,
-    "title": "Fish and Chips",
-    "description": "A delicious fish and chips recipe.",
-    "ingredients": [
-      "Tomatoes",
-      "Potatoes",
-      "Peppers",
-      "Milk",
-      "Mushrooms",
-      "Garlic"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Fish+and+Chips",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Expert",
-    "prepTime": "37 minutes",
-    "nutrition": {
-      "calories": 628,
-      "protein_g": 17.4,
-      "fat_g": 8.1,
-      "carbs_g": 94.7
-    }
-  },
-  {
-    "id": 65,
-    "title": "Eggplant Parmesan",
-    "description": "A delicious eggplant parmesan recipe.",
-    "ingredients": [
-      "Rice",
-      "Mushrooms",
-      "Tofu",
-      "Beef",
-      "Olive oil",
-      "Carrots"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Eggplant+Parmesan",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Expert",
-    "prepTime": "36 minutes",
-    "nutrition": {
-      "calories": 673,
-      "protein_g": 11.8,
-      "fat_g": 8.4,
-      "carbs_g": 61.7
-    }
-  },
-  {
-    "id": 66,
-    "title": "Vegetable Stir Fry",
-    "description": "A delicious vegetable stir fry recipe.",
-    "ingredients": [
-      "Rice",
-      "Mushrooms",
-      "Butter",
-      "Spinach",
-      "Carrots",
-      "Olive oil"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Vegetable+Stir+Fry",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Intermediate",
-    "prepTime": "19 minutes",
-    "nutrition": {
-      "calories": 309,
-      "protein_g": 32.4,
-      "fat_g": 29.3,
-      "carbs_g": 46.6
-    }
-  },
-  {
-    "id": 67,
-    "title": "Pumpkin Pie",
-    "description": "A delicious pumpkin pie recipe.",
-    "ingredients": [
-      "Herbs",
-      "Garlic",
-      "Carrots",
-      "Pepper",
-      "Broccoli",
-      "Spinach"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Pumpkin+Pie",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Easy",
-    "prepTime": "25 minutes",
-    "nutrition": {
-      "calories": 467,
-      "protein_g": 32.6,
-      "fat_g": 21.5,
-      "carbs_g": 81.0
-    }
-  },
-  {
-    "id": 68,
-    "title": "Chicken Alfredo",
-    "description": "A delicious chicken alfredo recipe.",
-    "ingredients": [
-      "Beef",
-      "Chicken",
-      "Shrimp",
-      "Pepper",
-      "Salt",
-      "Potatoes"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Chicken+Alfredo",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Expert",
-    "prepTime": "52 minutes",
-    "nutrition": {
-      "calories": 380,
-      "protein_g": 30.7,
-      "fat_g": 24.3,
-      "carbs_g": 22.4
-    }
-  },
-  {
-    "id": 69,
-    "title": "Vegetable Stir Fry",
-    "description": "A delicious vegetable stir fry recipe.",
-    "ingredients": [
-      "Salmon",
-      "Salt",
-      "Herbs",
-      "Butter",
-      "Onions",
-      "Milk"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Vegetable+Stir+Fry",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Expert",
-    "prepTime": "10 minutes",
-    "nutrition": {
-      "calories": 274,
-      "protein_g": 22.8,
-      "fat_g": 26.0,
-      "carbs_g": 43.9
-    }
-  },
-  {
-    "id": 70,
-    "title": "Spaghetti Carbonara",
-    "description": "A delicious spaghetti carbonara recipe.",
-    "ingredients": [
-      "Pork",
-      "Beef",
-      "Olive oil",
-      "Pepper",
-      "Mushrooms",
-      "Carrots"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Spaghetti+Carbonara",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Expert",
-    "prepTime": "22 minutes",
-    "nutrition": {
-      "calories": 676,
-      "protein_g": 37.9,
-      "fat_g": 23.8,
-      "carbs_g": 68.4
-    }
-  },
-  {
-    "id": 71,
+    "id": 11,
     "title": "Avocado Toast",
-    "description": "A delicious avocado toast recipe.",
+    "description": "A simple and healthy breakfast with creamy avocado on crisp toast.",
     "ingredients": [
-      "Chicken",
-      "Butter",
-      "Pork",
-      "Mushrooms",
-      "Salt",
-      "Pepper"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Avocado+Toast",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Easy",
-    "prepTime": "30 minutes",
-    "nutrition": {
-      "calories": 500,
-      "protein_g": 28.8,
-      "fat_g": 9.0,
-      "carbs_g": 91.7
-    }
-  },
-  {
-    "id": 72,
-    "title": "Avocado Toast",
-    "description": "A delicious avocado toast recipe.",
-    "ingredients": [
-      "Pork",
-      "Tofu",
-      "Shrimp",
-      "Olive oil",
-      "Salmon",
-      "Onions"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Avocado+Toast",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Expert",
-    "prepTime": "33 minutes",
-    "nutrition": {
-      "calories": 553,
-      "protein_g": 24.4,
-      "fat_g": 9.2,
-      "carbs_g": 45.1
-    }
-  },
-  {
-    "id": 73,
-    "title": "BBQ Ribs",
-    "description": "A delicious bbq ribs recipe.",
-    "ingredients": [
-      "Herbs",
-      "Chicken",
-      "Spices",
-      "Broccoli",
-      "Pork",
-      "Shrimp"
-    ],
-    "image": "https://source.unsplash.com/400x300/?BBQ+Ribs",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Expert",
-    "prepTime": "23 minutes",
-    "nutrition": {
-      "calories": 483,
-      "protein_g": 23.6,
-      "fat_g": 19.4,
-      "carbs_g": 77.8
-    }
-  },
-  {
-    "id": 74,
-    "title": "Mac and Cheese",
-    "description": "A delicious mac and cheese recipe.",
-    "ingredients": [
-      "Cheese",
-      "Herbs",
-      "Salt",
-      "Garlic",
-      "Spices",
-      "Rice"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Mac+and+Cheese",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Expert",
-    "prepTime": "39 minutes",
-    "nutrition": {
-      "calories": 695,
-      "protein_g": 13.3,
-      "fat_g": 9.9,
-      "carbs_g": 45.7
-    }
-  },
-  {
-    "id": 75,
-    "title": "Tomato Soup",
-    "description": "A delicious tomato soup recipe.",
-    "ingredients": [
-      "Shrimp",
-      "Pasta",
-      "Pepper",
-      "Salmon",
-      "Beef",
-      "Pork"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Tomato+Soup",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Intermediate",
-    "prepTime": "53 minutes",
-    "nutrition": {
-      "calories": 470,
-      "protein_g": 29.4,
-      "fat_g": 23.0,
-      "carbs_g": 38.0
-    }
-  },
-  {
-    "id": 76,
-    "title": "Mac and Cheese",
-    "description": "A delicious mac and cheese recipe.",
-    "ingredients": [
-      "Cheese",
-      "Spices",
-      "Spinach",
-      "Rice",
+      "Bread slices",
+      "Avocado",
+      "Lemon juice",
+      "Chili flakes",
       "Salt",
       "Olive oil"
     ],
-    "image": "https://source.unsplash.com/400x300/?Mac+and+Cheese",
+    "image": "/images/AvocadoToast.png",
     "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Intermediate",
-    "prepTime": "27 minutes",
-    "nutrition": {
-      "calories": 681,
-      "protein_g": 19.5,
-      "fat_g": 9.3,
-      "carbs_g": 63.9
-    }
-  },
-  {
-    "id": 77,
-    "title": "Pumpkin Pie",
-    "description": "A delicious pumpkin pie recipe.",
-    "ingredients": [
-      "Rice",
-      "Chicken",
-      "Spices",
-      "Onions",
-      "Salt",
-      "Shrimp"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Pumpkin+Pie",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
+      "Toast the bread slices until golden.",
+      "Mash avocado with lemon juice, salt, and chili flakes.",
+      "Spread mashed avocado on toast.",
+      "Drizzle with olive oil and serve."
     ],
     "difficulty": "Easy",
     "prepTime": "10 minutes",
     "nutrition": {
-      "calories": 489,
-      "protein_g": 15.4,
-      "fat_g": 23.5,
-      "carbs_g": 95.4
+      "calories": 280,
+      "protein_g": 6.0,
+      "fat_g": 22.0,
+      "carbs_g": 18.0
     }
   },
   {
-    "id": 78,
-    "title": "Avocado Toast",
-    "description": "A delicious avocado toast recipe.",
+    "id": 12,
+    "title": "Greek Salad",
+    "description": "A refreshing salad made with cucumbers, tomatoes, olives, feta, and a light vinaigrette.",
     "ingredients": [
-      "Broccoli",
-      "Butter",
-      "Mushrooms",
-      "Garlic",
-      "Cheese",
-      "Herbs"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Avocado+Toast",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Intermediate",
-    "prepTime": "39 minutes",
-    "nutrition": {
-      "calories": 645,
-      "protein_g": 16.4,
-      "fat_g": 10.2,
-      "carbs_g": 24.4
-    }
-  },
-  {
-    "id": 79,
-    "title": "BBQ Ribs",
-    "description": "A delicious bbq ribs recipe.",
-    "ingredients": [
+      "Cucumber",
+      "Tomatoes",
+      "Red onion",
+      "Kalamata olives",
+      "Feta cheese",
       "Olive oil",
-      "Broccoli",
-      "Onions",
-      "Pork",
-      "Butter",
-      "Peppers"
+      "Red wine vinegar",
+      "Oregano"
     ],
-    "image": "https://source.unsplash.com/400x300/?BBQ+Ribs",
+    "image": "/images/GreekSalad.png",
     "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Intermediate",
-    "prepTime": "28 minutes",
-    "nutrition": {
-      "calories": 459,
-      "protein_g": 29.4,
-      "fat_g": 16.2,
-      "carbs_g": 21.5
-    }
-  },
-  {
-    "id": 80,
-    "title": "Chicken Alfredo",
-    "description": "A delicious chicken alfredo recipe.",
-    "ingredients": [
-      "Mushrooms",
-      "Herbs",
-      "Broccoli",
-      "Salt",
-      "Potatoes",
-      "Shrimp"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Chicken+Alfredo",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
+      "Chop cucumber, tomatoes, and red onion.",
+      "Mix with olives and crumbled feta in a bowl.",
+      "Drizzle with olive oil and vinegar.",
+      "Sprinkle with oregano and toss gently.",
+      "Serve chilled or at room temperature."
     ],
     "difficulty": "Easy",
-    "prepTime": "23 minutes",
+    "prepTime": "15 minutes",
     "nutrition": {
-      "calories": 458,
-      "protein_g": 24.6,
-      "fat_g": 30.1,
-      "carbs_g": 70.1
+      "calories": 220,
+      "protein_g": 6.0,
+      "fat_g": 18.0,
+      "carbs_g": 9.0
     }
   },
   {
-    "id": 81,
-    "title": "Eggplant Parmesan",
-    "description": "A delicious eggplant parmesan recipe.",
+    "id": 13,
+    "title": "Chicken Tikka Masala",
+    "description": "A popular Indian dish featuring marinated chicken in a rich, spiced tomato cream sauce.",
     "ingredients": [
-      "Tomatoes",
-      "Salmon",
-      "Tofu",
-      "Carrots",
-      "Salt",
-      "Pepper"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Eggplant+Parmesan",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Easy",
-    "prepTime": "27 minutes",
-    "nutrition": {
-      "calories": 298,
-      "protein_g": 39.4,
-      "fat_g": 29.4,
-      "carbs_g": 96.8
-    }
-  },
-  {
-    "id": 82,
-    "title": "Spaghetti Carbonara",
-    "description": "A delicious spaghetti carbonara recipe.",
-    "ingredients": [
-      "Mushrooms",
-      "Herbs",
-      "Tofu",
-      "Broccoli",
-      "Salmon",
-      "Rice"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Spaghetti+Carbonara",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Easy",
-    "prepTime": "48 minutes",
-    "nutrition": {
-      "calories": 381,
-      "protein_g": 11.7,
-      "fat_g": 15.1,
-      "carbs_g": 97.1
-    }
-  },
-  {
-    "id": 83,
-    "title": "Mushroom Risotto",
-    "description": "A delicious mushroom risotto recipe.",
-    "ingredients": [
-      "Tomatoes",
-      "Butter",
-      "Carrots",
-      "Pepper",
-      "Onions",
-      "Broccoli"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Mushroom+Risotto",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Expert",
-    "prepTime": "40 minutes",
-    "nutrition": {
-      "calories": 691,
-      "protein_g": 29.2,
-      "fat_g": 32.2,
-      "carbs_g": 20.3
-    }
-  },
-  {
-    "id": 84,
-    "title": "Pad Thai",
-    "description": "A delicious pad thai recipe.",
-    "ingredients": [
-      "Pasta",
+      "Chicken thighs",
+      "Yogurt",
+      "Garam masala",
       "Garlic",
-      "Rice",
-      "Onions",
-      "Tomatoes",
-      "Carrots"
+      "Ginger",
+      "Tomato puree",
+      "Heavy cream",
+      "Cumin",
+      "Paprika"
     ],
-    "image": "https://source.unsplash.com/400x300/?Pad+Thai",
+    "image": "/images/ChickenTikkaMasala.png",
     "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Easy",
-    "prepTime": "44 minutes",
-    "nutrition": {
-      "calories": 606,
-      "protein_g": 38.9,
-      "fat_g": 9.2,
-      "carbs_g": 87.2
-    }
-  },
-  {
-    "id": 85,
-    "title": "Grilled Salmon",
-    "description": "A delicious grilled salmon recipe.",
-    "ingredients": [
-      "Cheese",
-      "Spices",
-      "Shrimp",
-      "Potatoes",
-      "Tofu",
-      "Mushrooms"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Grilled+Salmon",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Intermediate",
-    "prepTime": "36 minutes",
-    "nutrition": {
-      "calories": 724,
-      "protein_g": 27.8,
-      "fat_g": 5.8,
-      "carbs_g": 37.0
-    }
-  },
-  {
-    "id": 86,
-    "title": "Mushroom Risotto",
-    "description": "A delicious mushroom risotto recipe.",
-    "ingredients": [
-      "Potatoes",
-      "Pork",
-      "Beef",
-      "Peppers",
-      "Pasta",
-      "Olive oil"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Mushroom+Risotto",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Easy",
-    "prepTime": "50 minutes",
-    "nutrition": {
-      "calories": 586,
-      "protein_g": 10.6,
-      "fat_g": 15.9,
-      "carbs_g": 43.4
-    }
-  },
-  {
-    "id": 87,
-    "title": "Shrimp Scampi",
-    "description": "A delicious shrimp scampi recipe.",
-    "ingredients": [
-      "Peppers",
-      "Onions",
-      "Butter",
-      "Milk",
-      "Mushrooms",
-      "Carrots"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Shrimp+Scampi",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Expert",
-    "prepTime": "29 minutes",
-    "nutrition": {
-      "calories": 648,
-      "protein_g": 31.7,
-      "fat_g": 14.8,
-      "carbs_g": 91.0
-    }
-  },
-  {
-    "id": 88,
-    "title": "Pad Thai",
-    "description": "A delicious pad thai recipe.",
-    "ingredients": [
-      "Herbs",
-      "Peppers",
-      "Spinach",
-      "Rice",
-      "Beef",
-      "Onions"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Pad+Thai",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Expert",
-    "prepTime": "30 minutes",
-    "nutrition": {
-      "calories": 794,
-      "protein_g": 17.7,
-      "fat_g": 7.1,
-      "carbs_g": 21.1
-    }
-  },
-  {
-    "id": 89,
-    "title": "Mushroom Risotto",
-    "description": "A delicious mushroom risotto recipe.",
-    "ingredients": [
-      "Cheese",
-      "Herbs",
-      "Milk",
-      "Potatoes",
-      "Spices",
-      "Chicken"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Mushroom+Risotto",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Intermediate",
-    "prepTime": "14 minutes",
-    "nutrition": {
-      "calories": 570,
-      "protein_g": 27.5,
-      "fat_g": 19.0,
-      "carbs_g": 39.7
-    }
-  },
-  {
-    "id": 90,
-    "title": "Pad Thai",
-    "description": "A delicious pad thai recipe.",
-    "ingredients": [
-      "Salt",
-      "Olive oil",
-      "Pepper",
-      "Shrimp",
-      "Onions",
-      "Herbs"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Pad+Thai",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Expert",
-    "prepTime": "35 minutes",
-    "nutrition": {
-      "calories": 605,
-      "protein_g": 31.5,
-      "fat_g": 15.7,
-      "carbs_g": 59.0
-    }
-  },
-  {
-    "id": 91,
-    "title": "Caesar Salad",
-    "description": "A delicious caesar salad recipe.",
-    "ingredients": [
-      "Tomatoes",
-      "Garlic",
-      "Milk",
-      "Onions",
-      "Potatoes",
-      "Salmon"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Caesar+Salad",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Easy",
-    "prepTime": "60 minutes",
-    "nutrition": {
-      "calories": 528,
-      "protein_g": 28.5,
-      "fat_g": 34.3,
-      "carbs_g": 82.6
-    }
-  },
-  {
-    "id": 92,
-    "title": "Eggplant Parmesan",
-    "description": "A delicious eggplant parmesan recipe.",
-    "ingredients": [
-      "Shrimp",
-      "Milk",
-      "Potatoes",
-      "Salt",
-      "Mushrooms",
-      "Cheese"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Eggplant+Parmesan",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
+      "Marinate chicken in yogurt and spices for 1 hour.",
+      "Grill or sear the chicken until cooked through.",
+      "In a pan, cook garlic and ginger, then add tomato puree and spices.",
+      "Simmer sauce, then stir in cream.",
+      "Add chicken to sauce and cook for 10 minutes.",
+      "Serve hot with rice or naan."
     ],
     "difficulty": "Intermediate",
     "prepTime": "45 minutes",
     "nutrition": {
-      "calories": 772,
-      "protein_g": 32.6,
-      "fat_g": 11.9,
-      "carbs_g": 29.2
+      "calories": 500,
+      "protein_g": 32.0,
+      "fat_g": 28.0,
+      "carbs_g": 25.0
     }
   },
   {
-    "id": 93,
-    "title": "Avocado Toast",
-    "description": "A delicious avocado toast recipe.",
-    "ingredients": [
-      "Garlic",
-      "Pasta",
-      "Rice",
-      "Chicken",
-      "Herbs",
-      "Salmon"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Avocado+Toast",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Expert",
-    "prepTime": "41 minutes",
-    "nutrition": {
-      "calories": 475,
-      "protein_g": 29.9,
-      "fat_g": 27.0,
-      "carbs_g": 55.2
-    }
-  },
-  {
-    "id": 94,
-    "title": "Grilled Salmon",
-    "description": "A delicious grilled salmon recipe.",
-    "ingredients": [
-      "Peppers",
-      "Carrots",
-      "Beef",
-      "Onions",
-      "Potatoes",
-      "Butter"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Grilled+Salmon",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Expert",
-    "prepTime": "31 minutes",
-    "nutrition": {
-      "calories": 284,
-      "protein_g": 19.7,
-      "fat_g": 18.3,
-      "carbs_g": 22.6
-    }
-  },
-  {
-    "id": 95,
-    "title": "BBQ Ribs",
-    "description": "A delicious bbq ribs recipe.",
-    "ingredients": [
-      "Cheese",
-      "Butter",
-      "Broccoli",
-      "Olive oil",
-      "Pepper",
-      "Beef"
-    ],
-    "image": "https://source.unsplash.com/400x300/?BBQ+Ribs",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Expert",
-    "prepTime": "30 minutes",
-    "nutrition": {
-      "calories": 527,
-      "protein_g": 11.0,
-      "fat_g": 32.5,
-      "carbs_g": 69.6
-    }
-  },
-  {
-    "id": 96,
+    "id": 14,
     "title": "Caesar Salad",
-    "description": "A delicious caesar salad recipe.",
+    "description": "A crisp salad with romaine lettuce, croutons, parmesan, and creamy Caesar dressing.",
     "ingredients": [
-      "Salt",
-      "Pasta",
-      "Beef",
-      "Chicken",
-      "Peppers",
-      "Garlic"
+      "Romaine lettuce",
+      "Parmesan cheese",
+      "Croutons",
+      "Caesar dressing",
+      "Lemon juice",
+      "Anchovy paste (optional)",
+      "Black pepper"
     ],
-    "image": "https://source.unsplash.com/400x300/?Caesar+Salad",
+    "image": "/images/CaesarSalad.png",
     "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
+      "Wash and chop romaine lettuce.",
+      "Toss with Caesar dressing and lemon juice.",
+      "Add croutons and shaved parmesan.",
+      "Sprinkle with pepper and serve immediately."
     ],
-    "difficulty": "Expert",
-    "prepTime": "11 minutes",
+    "difficulty": "Easy",
+    "prepTime": "15 minutes",
     "nutrition": {
-      "calories": 285,
-      "protein_g": 23.7,
-      "fat_g": 8.6,
-      "carbs_g": 26.5
+      "calories": 260,
+      "protein_g": 8.0,
+      "fat_g": 22.0,
+      "carbs_g": 10.0
     }
   },
   {
-    "id": 97,
-    "title": "Beef Tacos",
-    "description": "A delicious beef tacos recipe.",
+    "id": 15,
+    "title": "Shrimp Scampi",
+    "description": "Succulent shrimp cooked in garlic butter and white wine, served over pasta.",
     "ingredients": [
-      "Potatoes",
-      "Broccoli",
-      "Spinach",
-      "Herbs",
-      "Pork",
-      "Cheese"
+      "Shrimp",
+      "Garlic",
+      "Butter",
+      "Olive oil",
+      "White wine",
+      "Lemon juice",
+      "Parsley",
+      "Spaghetti"
     ],
-    "image": "https://source.unsplash.com/400x300/?Beef+Tacos",
+    "image": "/images/ShrimpScampi.png",
     "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
+      "Cook pasta until al dente.",
+      "Sauté garlic in butter and olive oil.",
+      "Add shrimp and cook until pink.",
+      "Pour in white wine and lemon juice, simmer briefly.",
+      "Toss with pasta and top with parsley.",
+      "Serve hot."
+    ],
+    "difficulty": "Easy",
+    "prepTime": "25 minutes",
+    "nutrition": {
+      "calories": 420,
+      "protein_g": 24.0,
+      "fat_g": 18.0,
+      "carbs_g": 38.0
+    }
+  },
+  {
+    "id": 16,
+    "title": "Lamb Curry",
+    "description": "A hearty curry made with tender lamb and bold Indian spices.",
+    "ingredients": [
+      "Lamb shoulder",
+      "Onion",
+      "Garlic",
+      "Ginger",
+      "Tomatoes",
+      "Yogurt",
+      "Curry powder",
+      "Cilantro"
+    ],
+    "image": "/images/LambCurry.png",
+    "directions": [
+      "Brown lamb in oil and set aside.",
+      "Cook onion, garlic, and ginger until soft.",
+      "Add curry powder and cook 1 minute.",
+      "Add tomatoes and cook until soft.",
+      "Return lamb, add yogurt, and simmer for 1 hour.",
+      "Top with cilantro and serve with rice."
     ],
     "difficulty": "Intermediate",
-    "prepTime": "53 minutes",
+    "prepTime": "1 hour 20 minutes",
     "nutrition": {
-      "calories": 486,
-      "protein_g": 23.2,
-      "fat_g": 21.9,
-      "carbs_g": 28.6
+      "calories": 600,
+      "protein_g": 35.0,
+      "fat_g": 40.0,
+      "carbs_g": 15.0
     }
   },
   {
-    "id": 98,
-    "title": "Beef Tacos",
-    "description": "A delicious beef tacos recipe.",
+    "id": 17,
+    "title": "Vegetable Stir Fry",
+    "description": "A quick and healthy stir fry with fresh vegetables and savory sauce.",
     "ingredients": [
-      "Olive oil",
-      "Tofu",
-      "Peppers",
-      "Garlic",
-      "Rice",
-      "Spinach"
-    ],
-    "image": "https://source.unsplash.com/400x300/?Beef+Tacos",
-    "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
-    ],
-    "difficulty": "Easy",
-    "prepTime": "18 minutes",
-    "nutrition": {
-      "calories": 304,
-      "protein_g": 15.6,
-      "fat_g": 33.4,
-      "carbs_g": 72.2
-    }
-  },
-  {
-    "id": 99,
-    "title": "Mac and Cheese",
-    "description": "A delicious mac and cheese recipe.",
-    "ingredients": [
-      "Cheese",
-      "Rice",
-      "Spices",
+      "Broccoli",
+      "Bell peppers",
       "Carrots",
-      "Butter",
-      "Salmon"
+      "Snow peas",
+      "Garlic",
+      "Soy sauce",
+      "Sesame oil",
+      "Ginger"
     ],
-    "image": "https://source.unsplash.com/400x300/?Mac+and+Cheese",
+    "image": "/images/VegetableStirFry.png",
     "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
+      "Heat sesame oil in a wok.",
+      "Add garlic and ginger, cook until fragrant.",
+      "Add all vegetables and stir-fry until crisp-tender.",
+      "Add soy sauce and cook another 2 minutes.",
+      "Serve hot with rice or noodles."
     ],
-    "difficulty": "Expert",
-    "prepTime": "36 minutes",
+    "difficulty": "Easy",
+    "prepTime": "20 minutes",
     "nutrition": {
-      "calories": 697,
-      "protein_g": 13.0,
-      "fat_g": 30.9,
-      "carbs_g": 78.0
+      "calories": 220,
+      "protein_g": 6.0,
+      "fat_g": 10.0,
+      "carbs_g": 28.0
     }
   },
   {
-    "id": 100,
+    "id": 18,
     "title": "Grilled Salmon",
-    "description": "A delicious grilled salmon recipe.",
+    "description": "A simple and flavorful grilled salmon with lemon and herbs.",
     "ingredients": [
-      "Pasta",
-      "Milk",
+      "Salmon fillets",
+      "Lemon juice",
       "Garlic",
-      "Tofu",
-      "Shrimp",
-      "Salmon"
+      "Olive oil",
+      "Dill",
+      "Salt",
+      "Black pepper"
     ],
-    "image": "https://source.unsplash.com/400x300/?Grilled+Salmon",
+    "image": "/images/GrilledSalmon.png",
     "directions": [
-      "Prep all ingredients.",
-      "Heat oil in a pan.",
-      "Cook the protein until browned.",
-      "Add vegetables and stir fry.",
-      "Simmer with sauce for 10 minutes.",
-      "Serve hot with garnish."
+      "Marinate salmon with lemon juice, olive oil, garlic, and herbs for 15 minutes.",
+      "Grill salmon over medium heat for 4–5 minutes per side.",
+      "Serve with lemon wedges and garnish with dill."
     ],
     "difficulty": "Easy",
-    "prepTime": "56 minutes",
+    "prepTime": "20 minutes",
     "nutrition": {
-      "calories": 641,
-      "protein_g": 34.5,
-      "fat_g": 31.4,
-      "carbs_g": 83.8
+      "calories": 390,
+      "protein_g": 34.0,
+      "fat_g": 25.0,
+      "carbs_g": 2.0
     }
-  }
+  },
+  {
+    "id": 19,
+    "title": "Mushroom Risotto",
+    "description": "A creamy risotto packed with earthy mushrooms and parmesan cheese.",
+    "ingredients": [
+      "Arborio rice",
+      "Mushrooms",
+      "Onion",
+      "Garlic",
+      "Vegetable broth",
+      "Parmesan cheese",
+      "Butter",
+      "White wine"
+    ],
+    "image": "/images/MushroomRisotto.png",
+    "directions": [
+      "Sauté onions, garlic, and mushrooms in butter.",
+      "Add rice and toast for 2 minutes.",
+      "Pour in white wine and stir until absorbed.",
+      "Add broth one ladle at a time, stirring until absorbed.",
+      "Repeat until rice is creamy and al dente.",
+      "Stir in cheese and serve warm."
+    ],
+    "difficulty": "Intermediate",
+    "prepTime": "40 minutes",
+    "nutrition": {
+      "calories": 480,
+      "protein_g": 12.0,
+      "fat_g": 16.0,
+      "carbs_g": 65.0
+    }
+  },
+  {
+    "id": 20,
+    "title": "Classic Lasagna",
+    "description": "A hearty Italian dish layered with rich meat sauce, creamy béchamel, and melted cheese.",
+    "ingredients": [
+      "1 lb ground beef",
+      "1 onion, chopped",
+      "2 cloves garlic, minced",
+      "24 oz marinara sauce",
+      "12 lasagna noodles",
+      "15 oz ricotta cheese",
+      "2 cups shredded mozzarella cheese",
+      "½ cup grated Parmesan cheese",
+       "1 egg",
+      "Salt and pepper to taste"
+      ],
+      "image": "/images/classic-lasagna.png",
+      "directions": [
+        "Preheat oven to 375°F (190°C).",
+        "In a skillet, cook ground beef, onion, and garlic until browned. Drain excess fat.",
+        "Add marinara sauce to the meat mixture and simmer for 10 minutes.",
+        "Cook lasagna noodles according to package instructions; drain.",
+        "In a bowl, combine ricotta cheese, egg, Parmesan, salt, and pepper.",
+        "In a baking dish, layer meat sauce, noodles, ricotta mixture, and mozzarella. Repeat layers.",
+        "Cover with foil and bake for 25 minutes. Remove foil and bake for another 25 minutes.",
+        "Let stand for 15 minutes before serving."
+      ],
+      "difficulty": "Intermediate",
+      "prepTime": "30 minutes",
+      "nutrition": {
+        "calories": 450,
+        "protein_g": 30.0,
+        "fat_g": 20.0,
+        "carbs_g": 35.0
+      }
+    },
+    {
+      "id": 21,
+      "title": "Quinoa Salad with Chickpeas",
+      "description": "A refreshing and protein-packed salad perfect for a light lunch or side dish.",
+      "ingredients": [
+        "1 cup quinoa",
+        "2 cups water",
+        "1 can (15 oz) chickpeas, drained and rinsed",
+        "1 cucumber, diced",
+        "1 bell pepper, diced",
+        "½ red onion, finely chopped",
+        "¼ cup chopped fresh parsley",
+        "Juice of 1 lemon",
+        "2 tablespoons olive oil",
+        "Salt and pepper to taste"
+      ],
+      "image": "/images/quinoa-chickpea-salad.png",
+      "directions": [
+        "Rinse quinoa under cold water.",
+        "Bring 2 cups of water and quinoa to a boil, reduce heat and simmer for 15 minutes or until water is absorbed.",
+        "Fluff with a fork and let cool.",
+        "In a large bowl, combine quinoa, chickpeas, cucumber, bell pepper, red onion, and parsley.",
+        "Whisk lemon juice, olive oil, salt, and pepper in a small bowl.",
+        "Pour dressing over the salad and toss well.",
+        "Chill before serving."
+      ],
+      "difficulty": "Easy",
+      "prepTime": "20 minutes",
+      "nutrition": {
+        "calories": 320,
+        "protein_g": 12.0,
+        "fat_g": 10.0,
+        "carbs_g": 40.0
+      }
+    },
+    {
+      "id": 22,
+      "title": "Chicken Caesar Wrap",
+      "description": "A fresh, flavorful chicken Caesar salad wrapped in a tortilla for an easy lunch or dinner.",
+      "ingredients": [
+        "2 grilled chicken breasts, sliced",
+        "4 whole wheat tortillas",
+        "2 cups Romaine lettuce, chopped",
+        "½ cup Caesar dressing",
+        "1 cup shredded Parmesan cheese",
+        "1 tablespoon olive oil"
+      ],
+      "image": "/images/chicken-caesar-wrap.png",
+      "directions": [
+        "Warm tortillas in a skillet over medium heat.",
+        "In a large bowl, toss together the lettuce, grilled chicken, Caesar dressing, and Parmesan cheese.",
+        "Place the mixture on the center of each tortilla and wrap tightly.",
+        "Serve with extra Caesar dressing for dipping."
+      ],
+      "difficulty": "Easy",
+      "prepTime": "15 minutes",
+      "nutrition": {
+        "calories": 420,
+        "protein_g": 38.0,
+        "fat_g": 18.0,
+        "carbs_g": 35.0
+      }
+    },
+    {
+      "id": 23,
+      "title": "Stuffed Bell Peppers",
+      "description": "Bell peppers filled with seasoned ground turkey, rice, and topped with cheese, then baked to perfection.",
+      "ingredients": [
+        "4 bell peppers, tops cut off and seeds removed",
+        "1 lb ground turkey",
+        "1 cup cooked rice",
+        "1 cup marinara sauce",
+        "1 cup shredded mozzarella cheese",
+        "½ cup onion, diced",
+        "2 cloves garlic, minced",
+        "Salt and pepper to taste"
+      ],
+      "image": "/images/stuffed-bell-peppers.png",
+      "directions": [
+        "Preheat oven to 375°F (190°C).",
+        "In a skillet, sauté onion and garlic until soft, then add ground turkey and cook until browned.",
+        "Stir in marinara sauce, cooked rice, salt, and pepper, and cook for an additional 5 minutes.",
+        "Stuff the bell peppers with the turkey mixture and place in a baking dish.",
+        "Top with mozzarella cheese and bake for 20 minutes, or until peppers are tender."
+      ],
+      "difficulty": "Intermediate",
+      "prepTime": "30 minutes",
+      "nutrition": {
+        "calories": 350,
+        "protein_g": 28.0,
+        "fat_g": 16.0,
+        "carbs_g": 32.0
+      }
+    },
+    {
+      "id": 24,
+      "title": "Shrimp Tacos",
+      "description": "Spicy shrimp cooked to perfection and served in soft tortillas with fresh toppings.",
+      "ingredients": [
+        "1 lb shrimp, peeled and deveined",
+        "1 tablespoon olive oil",
+        "1 teaspoon chili powder",
+        "1 teaspoon cumin",
+        "1 teaspoon garlic powder",
+        "1 lime, sliced",
+        "Corn tortillas",
+        "Shredded cabbage",
+        "Sour cream",
+        "Fresh cilantro, chopped"
+      ],
+      "image": "/images/shrimp-tacos.png",
+      "directions": [
+        "In a bowl, toss shrimp with olive oil, chili powder, cumin, garlic powder, and lime juice.",
+        "Heat a skillet over medium-high heat and cook shrimp for 2-3 minutes per side until pink and opaque.",
+        "Warm tortillas in a skillet and assemble tacos with shrimp, shredded cabbage, a dollop of sour cream, and cilantro.",
+        "Serve with lime wedges."
+      ],
+      "difficulty": "Easy",
+      "prepTime": "20 minutes",
+      "nutrition": {
+        "calories": 320,
+        "protein_g": 24.0,
+        "fat_g": 12.0,
+        "carbs_g": 28.0
+      }
+    },
+    {
+      "id": 25,
+      "title": "Vegetable Quiche",
+      "description": "A savory quiche filled with a mix of vegetables, eggs, and cheese in a flaky crust.",
+      "ingredients": [
+        "1 pie crust",
+        "4 large eggs",
+        "1 cup heavy cream",
+        "1 cup shredded cheese",
+        "1 cup broccoli, chopped",
+        "½ cup bell pepper, diced",
+        "½ cup onions, diced",
+        "Salt and pepper to taste"
+      ],
+      "image": "/images/vegetable-quiche.png",
+      "directions": [
+        "Preheat oven to 350°F (175°C).",
+        "In a skillet, sauté onions, bell pepper, and broccoli until softened.",
+        "In a bowl, whisk together eggs, heavy cream, cheese, salt, and pepper.",
+        "Add sautéed vegetables to the egg mixture and pour into the pie crust.",
+        "Bake for 30-35 minutes or until the center is set and the top is golden brown."
+      ],
+      "difficulty": "Intermediate",
+      "prepTime": "25 minutes",
+      "nutrition": {
+        "calories": 350,
+        "protein_g": 14.0,
+        "fat_g": 28.0,
+        "carbs_g": 18.0
+      }
+    },
+    {
+      "id": 26,
+      "title": "Baked Ziti",
+      "description": "A comforting baked pasta dish with marinara sauce, cheese, and Italian sausage.",
+      "ingredients": [
+        "1 lb ziti pasta",
+        "1 lb Italian sausage",
+        "1 jar marinara sauce",
+        "2 cups ricotta cheese",
+        "2 cups shredded mozzarella cheese",
+        "1 cup grated Parmesan cheese",
+        "1 egg",
+        "Salt and pepper to taste"
+      ],
+      "image": "/images/baked-ziti.png",
+      "directions": [
+        "Preheat oven to 375°F (190°C).",
+        "Cook ziti pasta according to package instructions, drain.",
+        "In a skillet, cook sausage until browned, then add marinara sauce and simmer for 10 minutes.",
+        "In a bowl, mix ricotta, egg, and half of the Parmesan cheese. Season with salt and pepper.",
+        "In a baking dish, layer pasta, meat sauce, ricotta mixture, and mozzarella. Repeat layers.",
+        "Top with remaining Parmesan and bake for 20-25 minutes."
+      ],
+      "difficulty": "Intermediate",
+      "prepTime": "40 minutes",
+      "nutrition": {
+        "calories": 500,
+        "protein_g": 28.0,
+        "fat_g": 20.0,
+        "carbs_g": 50.0
+      }
+    },
+    {
+      "id": 27,
+      "title": "Penne alla Vodka",
+      "description": "A creamy tomato and vodka sauce served over penne pasta, perfect for any occasion.",
+      "ingredients": [
+        "1 lb penne pasta",
+        "1 cup heavy cream",
+        "½ cup vodka",
+        "1 jar marinara sauce",
+        "2 tablespoons olive oil",
+        "2 cloves garlic, minced",
+        "Salt and pepper to taste",
+        "Fresh basil, chopped"
+      ],
+      "image": "/images/penne-alla-vodka.png",
+      "directions": [
+        "Cook penne pasta according to package instructions; drain.",
+        "In a skillet, sauté garlic in olive oil until fragrant, then add vodka and cook for 2 minutes.",
+        "Stir in marinara sauce and heavy cream. Simmer for 5 minutes.",
+        "Add cooked pasta to the sauce and toss to coat. Season with salt and pepper.",
+        "Garnish with fresh basil and serve."
+      ],
+      "difficulty": "Easy",
+      "prepTime": "25 minutes",
+      "nutrition": {
+        "calories": 490,
+        "protein_g": 14.0,
+        "fat_g": 22.0,
+        "carbs_g": 62.0
+      }
+    },
+    {
+      "id": 28,
+      "title": "Beef Wellington",
+      "description": "A luxurious beef dish wrapped in puff pastry with mushrooms and pâté, perfect for special occasions.",
+      "ingredients": [
+        "2 lb beef tenderloin",
+        "1 sheet puff pastry",
+        "½ cup mushroom duxelles",
+        "¼ cup pâté",
+        "1 egg, beaten",
+        "Salt and pepper to taste"
+      ],
+      "image": "/images/beef-wellington.png",
+      "directions": [
+        "Preheat oven to 400°F (200°C).",
+        "Season beef with salt and pepper, sear in a hot pan until browned on all sides.",
+        "Let beef cool, then spread pâté and mushroom duxelles over it.",
+        "Wrap beef in puff pastry and brush with egg wash.",
+        "Bake for 35-40 minutes until golden brown and cooked to desired doneness."
+      ],
+      "difficulty": "Expert",
+      "prepTime": "45 minutes",
+      "nutrition": {
+        "calories": 700,
+        "protein_g": 50.0,
+        "fat_g": 45.0,
+        "carbs_g": 35.0
+      }
+    },
+    {
+      "id": 29,
+      "title": "Pulled Pork Sandwiches",
+      "description": "Slow-cooked pork shoulder shredded and served on a bun with barbecue sauce.",
+      "ingredients": [
+        "3 lb pork shoulder",
+        "1 onion, chopped",
+        "1 cup barbecue sauce",
+        "6 sandwich buns",
+        "Salt and pepper to taste"
+      ],
+      "image": "/images/pulled-pork-sandwiches.png",
+      "directions": [
+        "Season pork shoulder with salt and pepper, then slow cook in a crockpot for 6-8 hours.",
+        "Shred the pork using two forks and mix with barbecue sauce.",
+        "Serve on sandwich buns with extra sauce and chopped onion."
+      ],
+      "difficulty": "Easy",
+      "prepTime": "10 minutes (slow cook for 6-8 hours)",
+      "nutrition": {
+        "calories": 600,
+        "protein_g": 40.0,
+        "fat_g": 25.0,
+        "carbs_g": 60.0
+      }
+    },
+    {
+      "id": 30,
+      "title": "Classic Margherita Pizza",
+      "description": "A simple Italian pizza with fresh mozzarella, tomatoes, and basil.",
+      "ingredients": [
+        "1 pizza dough",
+        "1/2 cup tomato sauce",
+        "8 oz fresh mozzarella cheese, sliced",
+        "Fresh basil leaves",
+        "2 tablespoons olive oil",
+        "Salt and pepper to taste"
+      ],
+      "image": "/images/Margherita_Pizza.png",
+      "directions": [
+        "Preheat oven to 475°F (245°C).",
+        "Roll out the pizza dough and place on a baking sheet.",
+        "Spread tomato sauce evenly over the dough.",
+        "Top with mozzarella slices and fresh basil leaves.",
+        "Drizzle with olive oil and season with salt and pepper.",
+        "Bake for 12-15 minutes until crust is golden brown."
+      ],
+      "difficulty": "Easy",
+      "prepTime": "20 minutes",
+      "nutrition": {
+        "calories": 300,
+        "protein_g": 12.0,
+        "fat_g": 10.0,
+        "carbs_g": 35.0
+      }
+    },
+    {
+      "id": 31,
+      "title": "Grilled Chicken and Vegetables",
+      "description": "A healthy and flavorful grilled chicken served with assorted vegetables.",
+      "ingredients": [
+        "2 chicken breasts",
+        "1 zucchini, sliced",
+        "1 bell pepper, sliced",
+        "1 tablespoon olive oil",
+        "Salt and pepper to taste"
+      ],
+      "image": "/images/Grilled_Chicken_Vegetables.png",
+      "directions": [
+        "Preheat grill to medium-high heat.",
+        "Brush chicken and vegetables with olive oil; season with salt and pepper.",
+        "Grill chicken for 6-7 minutes per side until cooked through.",
+        "Grill vegetables for 4-5 minutes until tender.",
+        "Serve chicken with grilled vegetables."
+      ],
+      "difficulty": "Easy",
+      "prepTime": "30 minutes",
+      "nutrition": {
+        "calories": 350,
+        "protein_g": 30.0,
+        "fat_g": 15.0,
+        "carbs_g": 10.0
+      }
+    },
+    {
+      "id": 32,
+      "title": "One-Pot Chili Con Carne",
+      "description": "A hearty chili with ground beef, kidney beans, and tomato sauce.",
+      "ingredients": [
+        "500g ground beef",
+        "1 can kidney beans",
+        "1 cup tomato sauce",
+        "1 onion, diced",
+        "2 cloves garlic, minced",
+        "1 tablespoon chili powder",
+        "Salt and pepper to taste"
+      ],
+      "image": "/images/Chili_Con_Carne.png",
+      "directions": [
+        "In a large pot, brown ground beef over medium heat; drain excess fat.",
+        "Add onion and garlic; cook until softened.",
+        "Stir in kidney beans, tomato sauce, chili powder, salt, and pepper.",
+        "Simmer for 20 minutes, stirring occasionally.",
+        "Serve hot with desired toppings."
+      ],
+      "difficulty": "Easy",
+      "prepTime": "30 minutes",
+      "nutrition": {
+        "calories": 400,
+        "protein_g": 25.0,
+        "fat_g": 20.0,
+        "carbs_g": 30.0
+      }
+    },
+    {
+      "id": 33,
+      "title": "Overnight Oats with Chia Seeds",
+      "description": "A no-cook breakfast option with oats, chia seeds, and fresh fruits.",
+      "ingredients": [
+        "1/2 cup rolled oats",
+        "1 tablespoon chia seeds",
+        "1 cup milk or milk alternative",
+        "1/2 banana, sliced",
+        "1/4 cup berries",
+        "1 tablespoon honey"
+      ],
+      "image": "/images/Overnight_Oats.png",
+      "directions": [
+        "In a jar, combine oats, chia seeds, and milk; stir well.",
+        "Add sliced banana and berries on top.",
+        "Drizzle with honey.",
+        "Cover and refrigerate overnight.",
+        "Stir before serving."
+      ],
+      "difficulty": "Easy",
+      "prepTime": "10 minutes",
+      "nutrition": {
+        "calories": 300,
+        "protein_g": 8.0,
+        "fat_g": 7.0,
+        "carbs_g": 50.0
+      }
+    },
+    {
+      "id": 34,
+      "title": "Tuna Nicoise Salad",
+      "description": "A French salad with tuna, green beans, potatoes, and olives.",
+      "ingredients": [
+        "1 can tuna",
+        "1 cup green beans, blanched",
+        "2 boiled potatoes, sliced",
+        "1/4 cup black olives",
+        "2 hard-boiled eggs, halved",
+        "2 tablespoons vinaigrette"
+      ],
+      "image": "/images/nicoise_salad.png",
+      "directions": [
+        "Arrange tuna, green beans, potatoes, olives, and eggs on a plate.",
+        "Drizzle with vinaigrette.",
+        "Season with salt and pepper.",
+        "Serve chilled or at room temperature."
+      ],
+      "difficulty": "Intermediate",
+      "prepTime": "25 minutes",
+      "nutrition": {
+        "calories": 390,
+        "protein_g": 26.0,
+        "fat_g": 22.0,
+        "carbs_g": 20.0
+      }
+    },
+    {
+      "id": 35,
+      "title": "Butternut Squash Soup",
+      "description": "A creamy and comforting soup perfect for fall.",
+      "ingredients": [
+        "1 butternut squash, peeled and cubed",
+        "1 onion, chopped",
+        "2 cups vegetable broth",
+        "1/2 cup cream",
+        "1 tablespoon olive oil",
+        "Salt, pepper, nutmeg to taste"
+      ],
+      "image": "/images/butternut_soup.png",
+      "directions": [
+        "Sauté onion in olive oil until soft.",
+        "Add squash and broth; bring to a boil and simmer until tender.",
+        "Blend until smooth.",
+        "Stir in cream, nutmeg, salt, and pepper.",
+        "Heat through and serve warm."
+      ],
+      "difficulty": "Easy",
+      "prepTime": "40 minutes",
+      "nutrition": {
+        "calories": 220,
+        "protein_g": 3.0,
+        "fat_g": 10.0,
+        "carbs_g": 30.0
+      }
+    },
+    {
+      "id": 36,
+      "title": "Thai Green Curry",
+      "description": "A fragrant Thai green curry with chicken and vegetables in coconut milk.",
+      "ingredients": [
+        "1 lb chicken breast, sliced",
+        "1 tbsp green curry paste",
+        "1 can coconut milk",
+        "1 cup mixed vegetables",
+        "1 tbsp fish sauce",
+        "1 tsp sugar"
+      ],
+      "image": "/images/green_curry.png",
+      "directions": [
+        "Cook curry paste in a pan until aromatic.",
+        "Add chicken and stir until browned.",
+        "Pour in coconut milk and bring to a boil.",
+        "Add vegetables, fish sauce, and sugar.",
+        "Simmer for 15 minutes and serve."
+      ],
+      "difficulty": "Intermediate",
+      "prepTime": "35 minutes",
+      "nutrition": {
+        "calories": 480,
+        "protein_g": 28.0,
+        "fat_g": 32.0,
+        "carbs_g": 18.0
+      }
+    },
+    {
+      "id": 37,
+      "title": "Lentil Stew",
+      "description": "A hearty and nutritious stew with lentils and vegetables.",
+      "ingredients": [
+        "1 cup lentils",
+        "1 carrot, chopped",
+        "1 celery stalk, chopped",
+        "1 onion, chopped",
+        "2 cups vegetable broth",
+        "1 tablespoon olive oil",
+        "Spices to taste"
+      ],
+      "image": "/images/lentil_stew.png",
+      "directions": [
+        "Sauté onion, carrot, and celery in olive oil.",
+        "Add lentils and broth; bring to boil.",
+        "Simmer for 30 minutes or until lentils are tender.",
+        "Season with salt, pepper, and desired spices.",
+        "Serve hot."
+      ],
+      "difficulty": "Easy",
+      "prepTime": "40 minutes",
+      "nutrition": {
+        "calories": 280,
+        "protein_g": 18.0,
+        "fat_g": 6.0,
+        "carbs_g": 35.0
+      }
+    },
+    {
+      "id": 38,
+      "title": "Chickpea Curry",
+      "description": "A hearty and flavorful vegetarian curry made with chickpeas and spices.",
+      "ingredients": [
+        "2 cups canned chickpeas",
+        "1 onion, diced",
+        "2 tomatoes, chopped",
+        "1 tbsp curry powder",
+        "1/2 cup coconut milk",
+        "1 tbsp olive oil"
+      ],
+      "image": "/images/chickpea_curry.png",
+      "directions": [
+        "Heat olive oil in a pan and sauté onion.",
+        "Add tomatoes and cook until soft.",
+        "Stir in curry powder and cook for 1 minute.",
+        "Add chickpeas and coconut milk.",
+        "Simmer for 15–20 minutes.",
+        "Serve with rice or naan."
+      ],
+      "difficulty": "Easy",
+      "prepTime": "30 minutes",
+      "nutrition": {
+        "calories": 340,
+        "protein_g": 12.0,
+        "fat_g": 14.0,
+        "carbs_g": 40.0
+      }
+    },
+    {
+      "id": 39,
+      "title": "Falafel Wrap",
+      "description": "A Middle Eastern favorite made with crispy falafel and fresh veggies in a wrap.",
+      "ingredients": [
+        "6 falafel balls",
+        "1 pita or wrap",
+        "1/4 cup hummus",
+        "Lettuce",
+        "Tomato slices",
+        "Cucumber slices"
+      ],
+      "image": "/images/falafel_wrap.png",
+      "directions": [
+        "Warm the pita or wrap.",
+        "Spread hummus down the center.",
+        "Add falafel, lettuce, tomato, and cucumber.",
+        "Wrap tightly and serve."
+      ],
+      "difficulty": "Easy",
+      "prepTime": "15 minutes",
+      "nutrition": {
+        "calories": 410,
+        "protein_g": 13.0,
+        "fat_g": 18.0,
+        "carbs_g": 45.0
+      }
+    },
+    {
+      "id": 40,
+      "title": "Seafood Paella",
+      "description": "A Spanish rice dish packed with shrimp, mussels, and aromatic spices.",
+      "ingredients": [
+        "1 cup rice",
+        "1/2 lb shrimp",
+        "1/2 lb mussels",
+        "1 bell pepper, chopped",
+        "2 cups chicken broth",
+        "1 tsp paprika"
+      ],
+      "image": "/images/seafood_paella.png",
+      "directions": [
+        "Sauté bell pepper and rice until lightly browned.",
+        "Add broth and paprika, bring to a boil.",
+        "Reduce heat and simmer for 10 minutes.",
+        "Add shrimp and mussels; cook until done.",
+        "Let stand 5 minutes before serving."
+      ],
+      "difficulty": "Expert",
+      "prepTime": "45 minutes",
+      "nutrition": {
+        "calories": 520,
+        "protein_g": 30.0,
+        "fat_g": 10.0,
+        "carbs_g": 60.0
+      }
+    },
+    {
+      "id": 41,
+      "title": "Quinoa Stuffed Tomatoes",
+      "description": "A light and healthy dish of tomatoes stuffed with herbed quinoa.",
+      "ingredients": [
+        "4 large tomatoes",
+        "1 cup cooked quinoa",
+        "1/4 cup feta cheese",
+        "2 tbsp parsley",
+        "1 tbsp olive oil",
+        "Salt and pepper"
+      ],
+      "image": "/images/stuffed_tomatoes.png",
+      "directions": [
+        "Cut tops off tomatoes and scoop out centers.",
+        "Mix quinoa, feta, parsley, olive oil, salt, and pepper.",
+        "Stuff tomatoes with mixture.",
+        "Bake at 375°F for 15–20 minutes.",
+        "Serve warm."
+      ],
+      "difficulty": "Intermediate",
+      "prepTime": "30 minutes",
+      "nutrition": {
+        "calories": 260,
+        "protein_g": 9.0,
+        "fat_g": 12.0,
+        "carbs_g": 28.0
+      }
+    },
+    {
+      "id": 42,
+      "title": "Korean Bibimbap",
+      "description": "A Korean rice bowl topped with vegetables, egg, and spicy gochujang sauce.",
+      "ingredients": [
+        "1 cup cooked rice",
+        "1/2 cup spinach",
+        "1/2 cup carrots, julienned",
+        "1/2 cup bean sprouts",
+        "1 fried egg",
+        "1 tbsp gochujang"
+      ],
+      "image": "/images/bibimbap.png",
+      "directions": [
+        "Sauté vegetables separately and set aside.",
+        "Place rice in bowl, arrange vegetables on top.",
+        "Add fried egg in the center.",
+        "Top with gochujang sauce.",
+        "Mix before eating."
+      ],
+      "difficulty": "Intermediate",
+      "prepTime": "35 minutes",
+      "nutrition": {
+        "calories": 420,
+        "protein_g": 14.0,
+        "fat_g": 10.0,
+        "carbs_g": 65.0
+      }
+    },
+    {
+      "id": 44,
+      "title": "Lemon Garlic Asparagus Pasta",
+      "description": "Light pasta tossed with sautéed asparagus and a zesty lemon garlic sauce.",
+      "ingredients": [
+        "8 oz spaghetti",
+        "1 bunch asparagus, chopped",
+        "2 cloves garlic, minced",
+        "2 tbsp olive oil",
+        "1 tbsp lemon juice",
+        "Salt and pepper"
+      ],
+      "image": "/images/example.png",
+      "directions": [
+        "Cook pasta until al dente.",
+        "Sauté asparagus and garlic in olive oil.",
+        "Toss pasta with asparagus, lemon juice, salt, and pepper."
+      ],
+      "difficulty": "Easy",
+      "prepTime": "25 minutes",
+      "nutrition": {
+        "calories": 410,
+        "protein_g": 12.0,
+        "fat_g": 14.0,
+        "carbs_g": 60.0
+      }
+    },
+    {
+      "id": 55,
+      "title": "Peanut Butter Banana Smoothie",
+      "description": "A creamy smoothie with peanut butter, banana, and a hint of honey.",
+      "ingredients": [
+        "1 banana",
+        "2 tbsp peanut butter",
+        "1 cup milk or almond milk",
+        "1 tsp honey",
+        "1/2 cup ice"
+      ],
+      "image": "/images/example.png",
+      "directions": [
+        "Combine all ingredients in a blender.",
+        "Blend until smooth and creamy.",
+        "Serve chilled."
+      ],
+      "difficulty": "Easy",
+      "prepTime": "5 minutes",
+      "nutrition": {
+        "calories": 320,
+        "protein_g": 9.0,
+        "fat_g": 15.0,
+        "carbs_g": 38.0
+      }
+    },
+    {
+      "id": 45,
+      "title": "Zucchini Noodles with Pesto",
+      "description": "Low-carb zucchini noodles tossed in a homemade pesto sauce.",
+      "ingredients": [
+        "2 zucchinis, spiralized",
+        "1/4 cup basil pesto",
+        "1 tbsp olive oil",
+        "1/4 cup cherry tomatoes",
+        "Salt and pepper"
+      ],
+      "image": "/images/zoodles_pesto.png",
+      "directions": [
+        "Heat olive oil in a skillet.",
+        "Add zucchini noodles and sauté for 2–3 minutes.",
+        "Stir in pesto and cherry tomatoes.",
+        "Cook for 2 more minutes and serve."
+      ],
+      "difficulty": "Easy",
+      "prepTime": "15 minutes",
+      "nutrition": {
+        "calories": 230,
+        "protein_g": 5.0,
+        "fat_g": 18.0,
+        "carbs_g": 10.0
+      }
+    },
+    {
+      "id": 46,
+      "title": "Beef Bulgogi",
+      "description": "A Korean-style marinated beef dish served with rice and kimchi.",
+      "ingredients": [
+        "1 lb thin-sliced beef",
+        "2 tbsp soy sauce",
+        "1 tbsp sugar",
+        "1 tsp sesame oil",
+        "2 cloves garlic, minced",
+        "1/2 onion, sliced"
+      ],
+      "image": "/images/beef_bulgogi.png",
+      "directions": [
+        "Mix soy sauce, sugar, sesame oil, and garlic to make marinade.",
+        "Marinate beef for 30 minutes.",
+        "Sauté onions and beef until cooked through.",
+        "Serve with rice and kimchi."
+      ],
+      "difficulty": "Intermediate",
+      "prepTime": "30 minutes",
+      "nutrition": {
+        "calories": 490,
+        "protein_g": 33.0,
+        "fat_g": 24.0,
+        "carbs_g": 32.0
+      }
+    },
+    {
+      "id": 47,
+      "title": "Tofu Stir Fry",
+      "description": "A quick stir fry with crispy tofu and colorful vegetables.",
+      "ingredients": [
+        "1 block tofu, cubed",
+        "1 cup broccoli florets",
+        "1/2 bell pepper, sliced",
+        "2 tbsp soy sauce",
+        "1 tbsp sesame oil",
+        "1 tsp ginger, grated"
+      ],
+      "image": "/images/tofu_stirfry.png",
+      "directions": [
+        "Fry tofu cubes until golden.",
+        "Remove tofu and stir-fry vegetables in sesame oil.",
+        "Add tofu back in with soy sauce and ginger.",
+        "Cook for 3–5 minutes and serve."
+      ],
+      "difficulty": "Easy",
+      "prepTime": "20 minutes",
+      "nutrition": {
+        "calories": 310,
+        "protein_g": 16.0,
+        "fat_g": 18.0,
+        "carbs_g": 20.0
+      }
+    },
+    {
+      "id": 48,
+      "title": "Classic Tuna Salad",
+      "description": "A refreshing tuna salad with celery, onion, and creamy dressing.",
+      "ingredients": [
+        "1 can tuna, drained",
+        "2 tbsp mayonnaise",
+        "1 tbsp diced onion",
+        "1 tbsp diced celery",
+        "Salt and pepper",
+        "Lettuce leaves"
+      ],
+      "image": "/images/tuna_salad.png",
+      "directions": [
+        "Mix tuna, mayo, onion, and celery in a bowl.",
+        "Season with salt and pepper.",
+        "Serve on lettuce leaves or bread."
+      ],
+      "difficulty": "Easy",
+      "prepTime": "10 minutes",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 22.0,
+        "fat_g": 16.0,
+        "carbs_g": 4.0
+      }
+    },
+    {
+      "id": 49,
+      "title": "Sweet Potato Hash",
+      "description": "A hearty breakfast hash made with sweet potatoes, eggs, and veggies.",
+      "ingredients": [
+        "2 sweet potatoes, diced",
+        "1/2 onion, diced",
+        "1 bell pepper, chopped",
+        "2 eggs",
+        "1 tbsp olive oil",
+        "Salt and pepper"
+      ],
+      "image": "/images/sweet_potato_hash.png",
+      "directions": [
+        "Sauté sweet potatoes in olive oil until tender.",
+        "Add onion and bell pepper; cook until soft.",
+        "Make wells and crack eggs in pan.",
+        "Cover and cook until eggs are set."
+      ],
+      "difficulty": "Intermediate",
+      "prepTime": "30 minutes",
+      "nutrition": {
+        "calories": 360,
+        "protein_g": 14.0,
+        "fat_g": 18.0,
+        "carbs_g": 36.0
+      }
+    },
+    {
+      "id": 50,
+      "title": "Caprese Salad",
+      "description": "A light Italian salad with fresh mozzarella, tomatoes, and basil.",
+      "ingredients": [
+        "Fresh mozzarella slices",
+        "Tomato slices",
+        "Fresh basil leaves",
+        "Olive oil",
+        "Balsamic vinegar",
+        "Salt and pepper"
+      ],
+      "image": "/images/caprese_salad.png",
+      "directions": [
+        "Arrange tomato and mozzarella slices on a plate.",
+        "Top with basil leaves.",
+        "Drizzle with olive oil and balsamic vinegar.",
+        "Sprinkle with salt and pepper."
+      ],
+      "difficulty": "Easy",
+      "prepTime": "10 minutes",
+      "nutrition": {
+        "calories": 280,
+        "protein_g": 12.0,
+        "fat_g": 20.0,
+        "carbs_g": 8.0
+      }
+    }
 ]
