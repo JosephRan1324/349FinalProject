@@ -36,10 +36,13 @@ src/
 │   └── recipes.json
 │
 ├── images/
-│   └── [local recipe images like pumpkinPie.png]
-│
+│   └── [local recipe images in .png]
+|
+├── styles/
+│   └── global.css
+|
 ├── App.jsx
-└── index.js
+└── main.jsx
 ```
 
 ## 🧑‍🍳 Getting Started
