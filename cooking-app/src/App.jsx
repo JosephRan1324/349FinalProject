@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import recipesData from './data/recipes.json';
 import SearchBar from './components/SearchBar';
 import FilterPanel from './components/FilterPanel';
@@ -7,8 +7,13 @@ import RecipeCard from './components/RecipeCard';
 import RecipeDetail from './components/RecipeDetail';
 import Favorites from './components/Favorites';
 import MealPlanner from './components/MealPlanner';
+import DayPlanner from './components/DayPlanner';
+import TimeSlotPage from './components/TimeSlotPage';
+import SearchPage from './components/SearchPage';
+import NavBar from './components/NavBar';
 
-function App() {
+function Layout() {
+  const location = useLocation();
   const [displayedRecipes, setDisplayedRecipes] = useState(recipesData);
 
   const handleSearch = (query) => {
@@ -20,28 +25,44 @@ function App() {
   };
 
   return (
-    <BrowserRouter>
-      <div className="app-container">
-        <header>
-          <h1>Cooking Web App</h1>
-        </header>
-        <SearchBar onSearch={handleSearch} />
-        <FilterPanel onFilter={setDisplayedRecipes} allRecipes={recipesData} />
-        <Routes>
-          <Route path="/" element={
-            <div className="grid">
-              {displayedRecipes.map(recipe => (
-                <RecipeCard key={recipe.id} recipe={recipe} />
-              ))}
-            </div>
-          } />
-          <Route path="/recipe/:id" element={<RecipeDetail />} />
-          <Route path="/favorites" element={<Favorites />} />
-          <Route path="/planner" element={<MealPlanner />} />
-        </Routes>
-      </div>
-    </BrowserRouter>
+    <div className="app-container">
+      <NavBar />
+
+      <header className="mb-4">
+        <h1 className="text-3xl font-bold mb-2">Cooking Web App</h1>
+      </header>
+
+      {(location.pathname === '/' || location.pathname === '/search') && (
+        <>
+          <SearchBar onSearch={handleSearch} />
+          <FilterPanel onFilter={setDisplayedRecipes} allRecipes={recipesData} />
+        </>
+      )}
+
+      <Routes>
+        <Route path="/" element={
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+            {displayedRecipes.map(recipe => (
+              <RecipeCard key={recipe.id} recipe={recipe} />
+            ))}
+          </div>
+        } />
+        <Route path="/recipe/:id" element={<RecipeDetail />} />
+        <Route path="/favorites" element={<Favorites />} />
+        <Route path="/planner" element={<MealPlanner />} />
+        <Route path="/planner/day" element={<DayPlanner />} />
+        <Route path="/planner/slot" element={<TimeSlotPage />} />
+        <Route path="/search" element={<SearchPage recipes={displayedRecipes} />} />
+        <Route path="/profile" element={<div className="meal-planner"><h2>👤 Profile Page (Coming Soon)</h2></div>} />
+      </Routes>
+    </div>
   );
 }
 
-export default App;
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Layout />
+    </BrowserRouter>
+  );
+}

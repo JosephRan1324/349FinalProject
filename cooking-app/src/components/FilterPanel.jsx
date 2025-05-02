@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+
 export default function FilterPanel({ allRecipes, onFilter }) {
   const [difficulty, setDifficulty] = useState('');
 
