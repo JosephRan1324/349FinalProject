@@ -4,15 +4,15 @@
     "title": "Pumpkin Pie",
     "description": "A delicious pumpkin pie recipe with a flaky crust and spiced filling.",
     "ingredients": [
-      "Pumpkin puree",
-      "Sugar",
-      "Eggs",
-      "Cinnamon",
-      "Nutmeg",
-      "Ginger",
-      "Cloves",
-      "Salt",
-      "Pie crust"
+      "15 oz pumpkin puree",
+      "1 cup sugar",
+      "2 large eggs",
+      "1 tsp cinnamon",
+      "½ tsp nutmeg",
+      "½ tsp ginger",
+      "¼ tsp cloves",
+      "¼ tsp salt",
+      "1 (9-inch) pie crust"
     ],
     "image": "/images/pumpkinPie.png",
     "directions": [
@@ -36,13 +36,13 @@
     "title": "Beef Tacos",
     "description": "A delicious beef tacos recipe with seasoned ground beef, cheese, and fresh toppings.",
     "ingredients": [
-      "Ground beef",
-      "Taco seasoning",
-      "Taco shells",
-      "Cheese",
-      "Lettuce",
-      "Tomatoes",
-      "Sour cream"
+      "1 lb ground beef",
+      "2 tbsp taco seasoning",
+      "8 taco shells",
+      "1 cup shredded cheese",
+      "1 cup shredded lettuce",
+      "2 medium tomatoes, diced",
+      "½ cup sour cream"
     ],
     "image": "/images/beefTacos.png",
     "directions": [
@@ -64,14 +64,14 @@
     "title": "Fish and Chips",
     "description": "A delicious crispy fish and chips recipe with homemade tartar sauce.",
     "ingredients": [
-      "White fish fillets",
-      "Potatoes",
-      "Flour",
-      "Baking powder",
-      "Salt",
-      "Pepper",
-      "Oil for frying",
-      "Tartar sauce"
+      "1 lb white fish fillets",
+      "4 medium potatoes, cut into fries",
+      "1 cup flour",
+      "1 tsp baking powder",
+      "1 tsp salt",
+      "½ tsp pepper",
+      "4 cups oil for frying",
+      "½ cup tartar sauce"
     ],
     "image": "/images/fishAndChips.png",
     "directions": [
@@ -94,13 +94,13 @@
     "title": "Chicken Alfredo",
     "description": "A rich and creamy chicken alfredo pasta with garlic and Parmesan.",
     "ingredients": [
-      "Chicken breasts",
-      "Fettucine pasta",
-      "Heavy cream",
-      "Butter",
-      "Garlic",
-      "Parmesan cheese",
-      "Olive oil"
+      "1 lb chicken breasts",
+      "8 oz fettuccine pasta",
+      "1 cup heavy cream",
+      "2 tbsp butter",
+      "2 cloves garlic, minced",
+      "1 cup grated Parmesan cheese",
+      "1 tbsp olive oil"
     ],
     "image": "/images/chickenAlfredo.png",
     "directions": [
@@ -124,14 +124,14 @@
     "title": "BBQ Ribs",
     "description": "Tender and flavorful BBQ ribs, slow-cooked and glazed with barbecue sauce.",
     "ingredients": [
-      "Pork ribs",
-      "BBQ sauce",
-      "Brown sugar",
-      "Paprika",
-      "Garlic powder",
-      "Onion powder",
-      "Salt",
-      "Pepper"
+      "2 lb pork ribs",
+      "1 cup BBQ sauce",
+      "2 tbsp brown sugar",
+      "1 tbsp paprika",
+      "1 tsp garlic powder",
+      "1 tsp onion powder",
+      "1 tsp salt",
+      "½ tsp pepper"  
     ],
     "image": "/images/bbqRibs.png",
     "directions": [
@@ -155,15 +155,15 @@
     "title": "Pad Thai",
     "description": "A savory and tangy Pad Thai stir-fried noodle dish with shrimp, eggs, and peanuts.",
     "ingredients": [
-      "Rice noodles",
-      "Shrimp",
-      "Eggs",
-      "Peanuts",
-      "Garlic",
-      "Lime",
-      "Soy sauce",
-      "Fish sauce",
-      "Chili flakes"
+      "8 oz rice noodles",
+      "½ lb shrimp, peeled",
+      "2 large eggs",
+      "¼ cup peanuts, chopped",
+      "2 cloves garlic, minced",
+      "1 lime, juiced",
+      "3 tbsp soy sauce",
+      "2 tbsp fish sauce",
+      "1 tsp chili flakes"
     ],
     "image": "/images/padThai.png",
     "directions": [
@@ -186,14 +186,14 @@
     "title": "Beef Stroganoff",
     "description": "A creamy Russian dish made with sautéed beef and mushrooms in a sour cream sauce.",
     "ingredients": [
-      "Beef sirloin",
-      "Mushrooms",
-      "Onions",
-      "Sour cream",
-      "Beef broth",
-      "Butter",
-      "Flour",
-      "Egg noodles"
+      "1 lb beef sirloin, sliced",
+      "8 oz mushrooms, sliced",
+      "1 medium onion, sliced",
+      "1 cup sour cream",
+      "1 cup beef broth",
+      "2 tbsp butter",
+      "2 tbsp flour",
+      "12 oz egg noodles"
     ],
     "image": "/images/BeefStroganoff.png",
     "directions": [
@@ -218,14 +218,15 @@
     "title": "Tomato Soup",
     "description": "A warm and comforting classic tomato soup.",
     "ingredients": [
-      "Tomatoes",
-      "Onion",
-      "Garlic",
-      "Olive oil",
-      "Vegetable broth",
-      "Cream",
-      "Basil",
-      "Salt and pepper"
+      "2 lb tomatoes, chopped",
+      "1 medium onion, diced",
+      "2 cloves garlic, minced",
+      "2 tbsp olive oil",
+      "4 cups vegetable broth",
+      "½ cup cream",
+      "¼ cup basil, chopped",
+      "1 tsp salt",
+      "½ tsp pepper"
     ],
     "image": "/images/TomatoSoup.png",
     "directions": [
@@ -249,12 +250,12 @@
     "title": "Spaghetti Carbonara",
     "description": "A rich and creamy pasta dish made with eggs, cheese, pancetta, and pepper.",
     "ingredients": [
-      "Spaghetti",
-      "Eggs",
-      "Parmesan cheese",
-      "Pancetta",
-      "Black pepper",
-      "Salt"
+      "12 oz spaghetti",
+      "2 large eggs",
+      "1 cup grated Parmesan cheese",
+      "4 oz pancetta, chopped",
+      "1 tsp black pepper",
+      "Salt to taste"
     ],
     "image": "/images/SpaghettiCarbonara.png",
     "directions": [
@@ -278,14 +279,14 @@
     "title": "Eggplant Parmesan",
     "description": "Baked eggplant slices layered with marinara sauce and melted cheese.",
     "ingredients": [
-      "Eggplant",
-      "Marinara sauce",
-      "Mozzarella cheese",
-      "Parmesan cheese",
-      "Eggs",
-      "Breadcrumbs",
-      "Olive oil",
-      "Basil"
+      "1 large eggplant, sliced",
+      "2 cups marinara sauce",
+      "1 cup shredded mozzarella cheese",
+      "½ cup grated Parmesan cheese",
+      "2 large eggs, beaten",
+      "1 cup breadcrumbs",
+      "2 tbsp olive oil",
+      "¼ cup basil, chopped"
     ],
     "image": "/images/EggplantParmesan.png",
     "directions": [
@@ -309,12 +310,12 @@
     "title": "Avocado Toast",
     "description": "A simple and healthy breakfast with creamy avocado on crisp toast.",
     "ingredients": [
-      "Bread slices",
-      "Avocado",
-      "Lemon juice",
-      "Chili flakes",
-      "Salt",
-      "Olive oil"
+      "2 slices bread",
+      "1 ripe avocado",
+      "1 tsp lemon juice",
+      "¼ tsp chili flakes",
+      "Salt to taste",
+      "1 tbsp olive oil"
     ],
     "image": "/images/AvocadoToast.png",
     "directions": [
@@ -337,14 +338,14 @@
     "title": "Greek Salad",
     "description": "A refreshing salad made with cucumbers, tomatoes, olives, feta, and a light vinaigrette.",
     "ingredients": [
-      "Cucumber",
-      "Tomatoes",
-      "Red onion",
-      "Kalamata olives",
-      "Feta cheese",
-      "Olive oil",
-      "Red wine vinegar",
-      "Oregano"
+      "1 cucumber, sliced",
+      "2 tomatoes, chopped",
+      "¼ red onion, thinly sliced",
+      "½ cup Kalamata olives",
+      "½ cup feta cheese, crumbled",
+      "2 tbsp olive oil",
+      "1 tbsp red wine vinegar",
+      "1 tsp oregano"
     ],
     "image": "/images/GreekSalad.png",
     "directions": [
@@ -368,15 +369,15 @@
     "title": "Chicken Tikka Masala",
     "description": "A popular Indian dish featuring marinated chicken in a rich, spiced tomato cream sauce.",
     "ingredients": [
-      "Chicken thighs",
-      "Yogurt",
-      "Garam masala",
-      "Garlic",
-      "Ginger",
-      "Tomato puree",
-      "Heavy cream",
-      "Cumin",
-      "Paprika"
+      "1 lb chicken thighs",
+      "½ cup yogurt",
+      "2 tbsp garam masala",
+      "2 cloves garlic, minced",
+      "1 tbsp ginger, minced",
+      "1 cup tomato puree",
+      "½ cup heavy cream",
+      "1 tsp cumin",
+      "1 tsp paprika"
     ],
     "image": "/images/ChickenTikkaMasala.png",
     "directions": [
@@ -401,13 +402,13 @@
     "title": "Caesar Salad",
     "description": "A crisp salad with romaine lettuce, croutons, parmesan, and creamy Caesar dressing.",
     "ingredients": [
-      "Romaine lettuce",
-      "Parmesan cheese",
-      "Croutons",
-      "Caesar dressing",
-      "Lemon juice",
-      "Anchovy paste (optional)",
-      "Black pepper"
+      "1 head Romaine lettuce, chopped",
+      "½ cup Parmesan cheese, shaved",
+      "1 cup croutons",
+      "½ cup Caesar dressing",
+      "1 tbsp lemon juice",
+      "1 tsp anchovy paste (optional)",
+      "Black pepper to taste"
     ],
     "image": "/images/CaesarSalad.png",
     "directions": [
@@ -430,14 +431,14 @@
     "title": "Shrimp Scampi",
     "description": "Succulent shrimp cooked in garlic butter and white wine, served over pasta.",
     "ingredients": [
-      "Shrimp",
-      "Garlic",
-      "Butter",
-      "Olive oil",
-      "White wine",
-      "Lemon juice",
-      "Parsley",
-      "Spaghetti"
+      "8 oz shrimp, peeled",
+      "4 cloves garlic, minced",
+      "2 tbsp butter",
+      "1 tbsp olive oil",
+      "¼ cup white wine",
+      "1 tbsp lemon juice",
+      "2 tbsp parsley, chopped",
+      "8 oz spaghetti"
     ],
     "image": "/images/ShrimpScampi.png",
     "directions": [
@@ -462,14 +463,14 @@
     "title": "Lamb Curry",
     "description": "A hearty curry made with tender lamb and bold Indian spices.",
     "ingredients": [
-      "Lamb shoulder",
-      "Onion",
-      "Garlic",
-      "Ginger",
-      "Tomatoes",
-      "Yogurt",
-      "Curry powder",
-      "Cilantro"
+      "2 lb lamb shoulder, cubed",
+      "1 medium onion, chopped",
+      "2 cloves garlic, minced",
+      "1 tbsp ginger, minced",
+      "2 tomatoes, chopped",
+      "½ cup yogurt",
+      "2 tbsp curry powder",
+      "¼ cup cilantro, chopped"
     ],
     "image": "/images/LambCurry.png",
     "directions": [
@@ -494,14 +495,14 @@
     "title": "Vegetable Stir Fry",
     "description": "A quick and healthy stir fry with fresh vegetables and savory sauce.",
     "ingredients": [
-      "Broccoli",
-      "Bell peppers",
-      "Carrots",
-      "Snow peas",
-      "Garlic",
-      "Soy sauce",
-      "Sesame oil",
-      "Ginger"
+      "2 cups broccoli florets",
+      "1 bell pepper, sliced",
+      "1 cup carrots, sliced",
+      "1 cup snow peas",
+      "2 cloves garlic, minced",
+      "2 tbsp soy sauce",
+      "1 tbsp sesame oil",
+      "1 tsp ginger, minced"
     ],
     "image": "/images/VegetableStirFry.png",
     "directions": [
@@ -525,13 +526,12 @@
     "title": "Grilled Salmon",
     "description": "A simple and flavorful grilled salmon with lemon and herbs.",
     "ingredients": [
-      "Salmon fillets",
-      "Lemon juice",
-      "Garlic",
-      "Olive oil",
-      "Dill",
-      "Salt",
-      "Black pepper"
+      "4 salmon fillets (6 oz each)",
+      "2 tbsp lemon juice",
+      "2 cloves garlic, minced",
+      "2 tbsp olive oil",
+      "2 tbsp dill, chopped",
+      "Salt and pepper to taste"
     ],
     "image": "/images/GrilledSalmon.png",
     "directions": [
@@ -553,14 +553,14 @@
     "title": "Mushroom Risotto",
     "description": "A creamy risotto packed with earthy mushrooms and parmesan cheese.",
     "ingredients": [
-      "Arborio rice",
-      "Mushrooms",
-      "Onion",
-      "Garlic",
-      "Vegetable broth",
-      "Parmesan cheese",
-      "Butter",
-      "White wine"
+      "1 cup Arborio rice",
+      "8 oz mushrooms, sliced",
+      "1 medium onion, chopped",
+      "2 cloves garlic, minced",
+      "4 cups vegetable broth",
+      "½ cup Parmesan cheese, grated",
+      "2 tbsp butter",
+      "½ cup white wine"
     ],
     "image": "/images/MushroomRisotto.png",
     "directions": [
