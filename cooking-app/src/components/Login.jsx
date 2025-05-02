@@ -10,11 +10,16 @@ export default function Login() {
   const handleLogin = (e) => {
     e.preventDefault();
     if (email && password) {
-      localStorage.setItem('isAuthenticated', 'true');
+      localStorage.setItem('loggedIn', 'true');
       navigate('/');
     } else {
       alert('Please enter both email and password.');
     }
+  };
+
+  const handleSkip = () => {
+    localStorage.setItem('loggedIn', 'true');
+    navigate('/');
   };
 
   return (
@@ -94,6 +99,13 @@ export default function Login() {
             />
 
             <button type="submit" style={buttonStyle}>Login</button>
+            <button
+              type="button"
+              onClick={handleSkip}
+              style={skipButtonStyle}
+            >
+              Skip Login
+            </button>
           </form>
         </div>
       </div>
@@ -116,6 +128,18 @@ const buttonStyle = {
   backgroundColor: 'var(--color-primary)',
   color: '#fff',
   border: 'none',
+  borderRadius: '6px',
+  fontSize: '1rem',
+  cursor: 'pointer',
+};
+
+const skipButtonStyle = {
+  width: '100%',
+  padding: '0.75rem',
+  marginTop: '0.5rem',
+  backgroundColor: 'transparent',
+  color: 'var(--color-primary)',
+  border: '1px solid var(--color-primary)',
   borderRadius: '6px',
   fontSize: '1rem',
   cursor: 'pointer',
