@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import LoginButton from './GoLoginButton';
 
 export default function NavBar() {
   const location = useLocation();
