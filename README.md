@@ -63,11 +63,11 @@ npm install
 npm run dev
 ```
 
-> Make sure you're using a bundler like **Vite** or **Create React App** configured to allow local image imports from `/src/images`.
+> Make sure you're using a bundler like **Vite** or **Create React App** configured to allow local image imports from `/public/images`.
 
 ## 🖼️ Adding Images
 
-- Place your image files inside `src/images/`.
+- Place your image files inside `public/images/`.
 - In `recipes.json`, reference them like this:
 
 ```json
