@@ -1,4 +1,3 @@
-// src/components/RecipeDetail.jsx
 import React from "react";
 import { useParams, useLocation, useNavigate } from "react-router-dom";
 import recipesData from "../data/recipes.json";
@@ -27,6 +26,13 @@ export default function RecipeDetail() {
         <h1>{recipe.title}</h1>
         <img src={recipe.image} alt={recipe.title} />
         <p>{recipe.description}</p>
+
+        <h2>Ingredients:</h2>
+        <ul>
+          {recipe.ingredients.map((ing, idx) => (
+            <li key={idx}>{ing}</li>
+          ))}
+        </ul>
 
         <h2>Directions:</h2>
         <ol>
