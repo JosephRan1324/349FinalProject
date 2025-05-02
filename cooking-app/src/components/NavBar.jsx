@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import LoginButton from './GoLoginButton';
 
 export default function NavBar() {
   const location = useLocation();
@@ -21,10 +22,11 @@ export default function NavBar() {
     >
       <div style={{ fontSize: '1.5rem', fontStyle: 'italic' }}>Prepease</div>
 
-      <div style={{ display: 'flex', gap: '1.5rem' }}>
+      <div style={{ display: 'flex', alignItems: 'center', gap: '1.5rem' }}>
         <Link to="/" style={linkStyle(location.pathname === '/')}>Home</Link>
         <Link to="/planner" style={linkStyle(location.pathname.startsWith('/planner'))}>Meal Planner</Link>
         <Link to="/profile" style={linkStyle(location.pathname === '/profile')}>Profile</Link>
+        <Link to="/login" style={linkStyle(location.pathname === '/login')}>Login</Link>
       </div>
     </nav>
   );
