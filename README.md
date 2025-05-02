@@ -34,9 +34,6 @@ src/
 │
 ├── data/
 │   └── recipes.json
-│
-├── images/
-│   └── [local recipe images in .png]
 |
 ├── styles/
 │   └── global.css
