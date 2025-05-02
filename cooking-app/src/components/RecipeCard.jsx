@@ -6,7 +6,7 @@ export default function RecipeCard({ recipe }) {
     <Link to={`/recipe/${recipe.id}`} className="card">
       <img src={recipe.image} alt={recipe.title} />
       <h3>{recipe.title}</h3>
-      <p>{recipe.prepTime} mins | {recipe.difficulty}</p>
+      <p>{recipe.prepTime} | {recipe.difficulty}</p>
     </Link>
   );
 }
