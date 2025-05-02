@@ -596,7 +596,7 @@
        "1 egg",
       "Salt and pepper to taste"
       ],
-      "image": "/images/classic-lasagna.png",
+      "image": "/images/ClassicLasagna.png",
       "directions": [
         "Preheat oven to 375°F (190°C).",
         "In a skillet, cook ground beef, onion, and garlic until browned. Drain excess fat.",
@@ -632,7 +632,7 @@
         "2 tablespoons olive oil",
         "Salt and pepper to taste"
       ],
-      "image": "/images/quinoa-chickpea-salad.png",
+      "image": "/images/quinoaChickpeaSalad.png",
       "directions": [
         "Rinse quinoa under cold water.",
         "Bring 2 cups of water and quinoa to a boil, reduce heat and simmer for 15 minutes or until water is absorbed.",
@@ -663,7 +663,7 @@
         "1 cup shredded Parmesan cheese",
         "1 tablespoon olive oil"
       ],
-      "image": "/images/chicken-caesar-wrap.png",
+      "image": "/images/chickenCaesarWrap.png",
       "directions": [
         "Warm tortillas in a skillet over medium heat.",
         "In a large bowl, toss together the lettuce, grilled chicken, Caesar dressing, and Parmesan cheese.",
@@ -693,7 +693,7 @@
         "2 cloves garlic, minced",
         "Salt and pepper to taste"
       ],
-      "image": "/images/stuffed-bell-peppers.png",
+      "image": "/images/stuffedBellPeppers.png",
       "directions": [
         "Preheat oven to 375°F (190°C).",
         "In a skillet, sauté onion and garlic until soft, then add ground turkey and cook until browned.",
@@ -726,7 +726,7 @@
         "Sour cream",
         "Fresh cilantro, chopped"
       ],
-      "image": "/images/shrimp-tacos.png",
+      "image": "/images/shrimpTacos.png",
       "directions": [
         "In a bowl, toss shrimp with olive oil, chili powder, cumin, garlic powder, and lime juice.",
         "Heat a skillet over medium-high heat and cook shrimp for 2-3 minutes per side until pink and opaque.",
@@ -756,7 +756,7 @@
         "½ cup onions, diced",
         "Salt and pepper to taste"
       ],
-      "image": "/images/vegetable-quiche.png",
+      "image": "/images/vegQuiche.png",
       "directions": [
         "Preheat oven to 350°F (175°C).",
         "In a skillet, sauté onions, bell pepper, and broccoli until softened.",
@@ -787,7 +787,7 @@
         "1 egg",
         "Salt and pepper to taste"
       ],
-      "image": "/images/baked-ziti.png",
+      "image": "/images/bakedZiti.png",
       "directions": [
         "Preheat oven to 375°F (190°C).",
         "Cook ziti pasta according to package instructions, drain.",
@@ -819,7 +819,7 @@
         "Salt and pepper to taste",
         "Fresh basil, chopped"
       ],
-      "image": "/images/penne-alla-vodka.png",
+      "image": "/images/vodkaPasta.png",
       "directions": [
         "Cook penne pasta according to package instructions; drain.",
         "In a skillet, sauté garlic in olive oil until fragrant, then add vodka and cook for 2 minutes.",
@@ -903,7 +903,7 @@
         "2 tablespoons olive oil",
         "Salt and pepper to taste"
       ],
-      "image": "/images/Margherita_Pizza.png",
+      "image": "/images/margheritaPizza.png",
       "directions": [
         "Preheat oven to 475°F (245°C).",
         "Roll out the pizza dough and place on a baking sheet.",
@@ -932,7 +932,7 @@
         "1 tablespoon olive oil",
         "Salt and pepper to taste"
       ],
-      "image": "/images/Grilled_Chicken_Vegetables.png",
+      "image": "/images/grilledChx+Veg.png",
       "directions": [
         "Preheat grill to medium-high heat.",
         "Brush chicken and vegetables with olive oil; season with salt and pepper.",
@@ -962,7 +962,7 @@
         "1 tablespoon chili powder",
         "Salt and pepper to taste"
       ],
-      "image": "/images/Chili_Con_Carne.png",
+      "image": "/images/onePotChiliConCarne.png",
       "directions": [
         "In a large pot, brown ground beef over medium heat; drain excess fat.",
         "Add onion and garlic; cook until softened.",
@@ -991,7 +991,7 @@
         "1/4 cup berries",
         "1 tablespoon honey"
       ],
-      "image": "/images/Overnight_Oats.png",
+      "image": "/images/overnightOats+Chia.png",
       "directions": [
         "In a jar, combine oats, chia seeds, and milk; stir well.",
         "Add sliced banana and berries on top.",
@@ -1270,7 +1270,7 @@
       }
     },
     {
-      "id": 44,
+      "id": 43,
       "title": "Lemon Garlic Asparagus Pasta",
       "description": "Light pasta tossed with sautéed asparagus and a zesty lemon garlic sauce.",
       "ingredients": [
@@ -1281,7 +1281,7 @@
         "1 tbsp lemon juice",
         "Salt and pepper"
       ],
-      "image": "/images/example.png",
+      "image": "/images/lemonGarlicPasta.png",
       "directions": [
         "Cook pasta until al dente.",
         "Sauté asparagus and garlic in olive oil.",
@@ -1297,7 +1297,7 @@
       }
     },
     {
-      "id": 55,
+      "id": 44,
       "title": "Peanut Butter Banana Smoothie",
       "description": "A creamy smoothie with peanut butter, banana, and a hint of honey.",
       "ingredients": [
@@ -1307,7 +1307,7 @@
         "1 tsp honey",
         "1/2 cup ice"
       ],
-      "image": "/images/example.png",
+      "image": "/images/pbSmoothie.png",
       "directions": [
         "Combine all ingredients in a blender.",
         "Blend until smooth and creamy.",
