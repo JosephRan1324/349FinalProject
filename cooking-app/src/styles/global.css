@@ -370,3 +370,11 @@ body.dark-mode {
 .login-box button:hover {
   background-color: var(--color-accent);
 }
+
+
+.recipe-detail p,
+.recipe-detail ul,
+.recipe-detail ol,
+.recipe-detail .meta {
+  margin-left: 1.5rem;
+}
