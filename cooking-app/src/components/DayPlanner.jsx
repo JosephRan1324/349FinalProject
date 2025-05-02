@@ -18,7 +18,12 @@ function DayPlanner() {
     const key = `${date}_${time}`;
     const saved = localStorage.getItem(key);
     if (saved) {
-      savedMeals[time] = saved;
+      try {
+        const parsed = JSON.parse(saved);
+        savedMeals[time] = parsed.title || '--------';
+      } catch {
+        savedMeals[time] = saved;
+      }
     }
   });
 

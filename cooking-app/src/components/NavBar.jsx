@@ -12,22 +12,28 @@ export default function NavBar() {
         backgroundColor: 'var(--color-primary)',
         color: '#fff',
         display: 'flex',
-        justifyContent: 'space-around',
+        justifyContent: 'space-between',
         alignItems: 'center',
-        padding: '1rem',
+        padding: '1rem 2rem',
         zIndex: 9999,
         boxShadow: '0 2px 6px rgba(0, 0, 0, 0.15)',
       }}
     >
-      <Link to="/" style={linkStyle(location.pathname === '/')}>🏠 Home</Link>
-      <Link to="/planner" style={linkStyle(location.pathname.startsWith('/planner'))}>🍽 Meal Planner</Link>
-      <Link to="/profile" style={linkStyle(location.pathname === '/profile')}>👤 Profile</Link>
+      <div style={{ fontSize: '1.5rem', fontStyle: 'italic' }}>Prepease</div>
+
+      <div style={{ display: 'flex', gap: '1.5rem' }}>
+        <Link to="/" style={linkStyle(location.pathname === '/')}>Home</Link>
+        <Link to="/planner" style={linkStyle(location.pathname.startsWith('/planner'))}>Meal Planner</Link>
+        <Link to="/profile" style={linkStyle(location.pathname === '/profile')}>Profile</Link>
+      </div>
     </nav>
   );
 }
 
 const linkStyle = (isActive) => ({
-  color: isActive ? '#fff' : '#e0e0e0',
+  color: '#e0e0e0',
   textDecoration: 'none',
-  fontWeight: isActive ? 'bold' : 'normal',
+  fontWeight: 'normal',
+  borderBottom: isActive ? '2px solid white' : 'none',
+  paddingBottom: '2px',
 });

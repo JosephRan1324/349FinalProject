@@ -1,3 +1,4 @@
+// src/components/TimeSlotPage.jsx
 import React, { useEffect, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 
@@ -14,7 +15,12 @@ function TimeSlotPage() {
   useEffect(() => {
     const saved = localStorage.getItem(key);
     if (saved) {
-      setSelectedMeal(saved);
+      try {
+        const parsed = JSON.parse(saved);
+        setSelectedMeal(parsed);
+      } catch {
+        setSelectedMeal(null);
+      }
     }
   }, [key]);
 
@@ -37,7 +43,20 @@ function TimeSlotPage() {
 
       {selectedMeal ? (
         <div style={{ marginTop: '2rem' }}>
-          <p><strong>Selected Meal:</strong> {selectedMeal}</p>
+          <h3>{selectedMeal.title}</h3>
+          <img src={selectedMeal.image} alt={selectedMeal.title} style={{ width: '100%', maxWidth: '400px' }} />
+          <p>{selectedMeal.description}</p>
+
+          <h4>Ingredients:</h4>
+          <ul>
+            {selectedMeal.ingredients.map((ing, idx) => <li key={idx}>{ing}</li>)}
+          </ul>
+
+          <h4>Directions:</h4>
+          <ol>
+            {selectedMeal.directions.map((step, idx) => <li key={idx}>{step}</li>)}
+          </ol>
+
           <button className="btn-planner" onClick={handleEdit} style={{ marginRight: '1rem' }}>
             Edit
           </button>

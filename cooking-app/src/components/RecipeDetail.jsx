@@ -1,3 +1,4 @@
+// src/components/RecipeDetail.jsx
 import React from "react";
 import { useParams, useLocation, useNavigate } from "react-router-dom";
 import recipesData from "../data/recipes.json";
@@ -12,19 +13,17 @@ export default function RecipeDetail() {
   const date = queryParams.get("date");
   const time = queryParams.get("time");
 
-  if (!recipe) {
-    return <div>Recipe not found</div>;
-  }
+  if (!recipe) return <div>Recipe not found</div>;
 
   const handleSave = () => {
     const key = `${date}_${time}`;
-    localStorage.setItem(key, recipe.title);
+    localStorage.setItem(key, JSON.stringify(recipe));
     navigate(`/planner/slot?date=${encodeURIComponent(date)}&time=${encodeURIComponent(time)}`);
   };
 
   return (
     <div className="recipe-detail">
-      <div style={{ marginTop: '1rem' }}>
+      <div style={{ marginBottom: date && time ? '2rem' : '0' }}>
         <h1>{recipe.title}</h1>
         <img src={recipe.image} alt={recipe.title} />
         <p>{recipe.description}</p>
@@ -49,13 +48,11 @@ export default function RecipeDetail() {
       </div>
 
       {date && time && (
-        <button
-          className="btn-planner"
-          style={{ position: "fixed", bottom: "2rem", right: "2rem" }}
-          onClick={handleSave}
-        >
-          Confirm and Save
-        </button>
+        <div style={{ marginTop: '2rem', textAlign: 'center' }}>
+          <button className="btn-planner" onClick={handleSave}>
+            Confirm and Save
+          </button>
+        </div>
       )}
     </div>
   );
