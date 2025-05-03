@@ -24,6 +24,7 @@ export default function NavBar() {
       <div style={{ display: 'flex', alignItems: 'center', gap: '1.5rem' }}>
         <Link to="/" style={linkStyle(location.pathname === '/')}>Home</Link>
         <Link to="/planner" style={linkStyle(location.pathname.startsWith('/planner'))}>Meal Planner</Link>
+        <Link to="/favorites" style={linkStyle(location.pathname.startsWith('/favorites'))}>Favorites</Link>
         <Link to="/profile" style={linkStyle(location.pathname === '/profile')}>Profile</Link>
         <Link to="/login" style={linkStyle(location.pathname === '/login')}>Login</Link>
       </div>

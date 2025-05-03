@@ -432,3 +432,18 @@ body.dark-mode {
   color: #2196f3;
   text-decoration: underline;
 }
+
+.btn-favorite {
+  display: inline-block;
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+  border-radius: 0.5rem;
+}
+
+.btn-favorite:hover {
+  background-color: var(--color-primary);
+  color: #ffffff;
+}
