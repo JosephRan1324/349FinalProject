@@ -378,3 +378,57 @@ body.dark-mode {
 .recipe-detail .meta {
   margin-left: 1.5rem;
 }
+
+.login-btn {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: var(--color-primary);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.login-btn:hover {
+  background-color: #e05042;
+}
+
+.login-btn:active {
+  transform: scale(0.98);
+}
+
+.guest-btn {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #fff;
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.1s ease;
+}
+
+.guest-btn:hover {
+  background-color: #fff0ec;
+  border-color: #e05042;
+}
+
+.guest-btn:active {
+  transform: scale(0.98);
+}
+
+.forgot-link {
+  font-size: 0.8rem;
+  color: #aaa;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.forgot-link:hover {
+  color: #2196f3;
+  text-decoration: underline;
+}
