@@ -31,7 +31,7 @@ export default function Login() {
         justifyContent: 'space-between',
         padding: '1.5rem 2rem',
         borderBottom: '1px solid #ddd',
-        backgroundColor: '#D7CCC8' // Light brown
+        backgroundColor: '#D7CCC8'
       }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
           <h1 style={{
@@ -137,7 +137,7 @@ export default function Login() {
 
             <button
               type="button"
-              onClick={() => alert('Sign up clicked (not implemented)')}
+              onClick={() => navigate('/signup')}
               className="guest-btn"
               style={{ marginTop: '0.5rem' }}
             >

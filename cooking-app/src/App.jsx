@@ -1,6 +1,12 @@
-// src/App.jsx
 import React, { useEffect, useState } from "react";
-import { BrowserRouter, Routes, Route, Navigate, useLocation } from "react-router-dom";
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  Navigate,
+  useLocation
+} from "react-router-dom";
+
 import recipesData from "./data/recipes.json";
 import SearchBar from "./components/SearchBar";
 import FilterPanel from "./components/FilterPanel";
@@ -13,6 +19,7 @@ import TimeSlotPage from "./components/TimeSlotPage";
 import SearchPage from "./components/SearchPage";
 import NavBar from "./components/NavBar";
 import Login from "./components/Login";
+import Signup from "./components/Signup"; // ✅ NEW IMPORT
 
 function Layout() {
   const location = useLocation();
@@ -36,25 +43,42 @@ function Layout() {
       {(location.pathname === "/" || location.pathname === "/search") && (
         <>
           <SearchBar onSearch={handleSearch} />
-          <FilterPanel onFilter={setDisplayedRecipes} allRecipes={recipesData} />
+          <FilterPanel
+            onFilter={setDisplayedRecipes}
+            allRecipes={recipesData}
+          />
         </>
       )}
 
       <Routes>
-        <Route path="/" element={
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-            {displayedRecipes.map((recipe) => (
-              <RecipeCard key={recipe.id} recipe={recipe} />
-            ))}
-          </div>
-        } />
+        <Route
+          path="/"
+          element={
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+              {displayedRecipes.map((recipe) => (
+                <RecipeCard key={recipe.id} recipe={recipe} />
+              ))}
+            </div>
+          }
+        />
         <Route path="/recipe/:id" element={<RecipeDetail />} />
         <Route path="/favorites" element={<Favorites />} />
         <Route path="/planner" element={<MealPlanner />} />
         <Route path="/planner/day" element={<DayPlanner />} />
         <Route path="/planner/slot" element={<TimeSlotPage />} />
-        <Route path="/search" element={<SearchPage recipes={displayedRecipes} />} />
-        <Route path="/profile" element={<div className="meal-planner"><h2>👤 Profile Page (Coming Soon)</h2></div>} />
+        <Route
+          path="/search"
+          element={<SearchPage recipes={displayedRecipes} />}
+        />
+        <Route
+          path="/profile"
+          element={
+            <div className="meal-planner">
+              <h2>👤 Profile Page (Coming Soon)</h2>
+            </div>
+          }
+        />
+        <Route path="/signup" element={<Signup />} /> {/* ✅ NEW SIGNUP ROUTE */}
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </div>
@@ -73,6 +97,10 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/login" element={<Login />} />
+        <Route
+          path="/signup"
+          element={<Signup />} // ✅ Make sure guest users can access signup
+        />
         <Route
           path="/*"
           element={isLoggedIn ? <Layout /> : <Navigate to="/login" />}
