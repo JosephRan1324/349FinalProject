@@ -1,3 +1,4 @@
+// src/components/DayPlanner.jsx
 import React from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 
@@ -33,13 +34,13 @@ function DayPlanner() {
 
   return (
     <div className="meal-planner">
-      {/* 🔙 Back to Calendar */}
+      {/* 🧼 Updated: Removed emoji */}
       <button
         className="btn"
         onClick={() => navigate('/planner')}
         style={{ marginBottom: '1rem' }}
       >
-        ⬅️ Back to Calendar
+        Back to Calendar
       </button>
 
       <h2 className="page-title">Meal Plan for {date}</h2>

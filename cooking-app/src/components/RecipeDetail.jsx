@@ -8,7 +8,6 @@ export default function RecipeDetail() {
   const navigate = useNavigate();
   const recipeId = parseInt(id, 10);
 
-  // Load favorites from localStorage (an array of recipe IDs)
   const [favorites, setFavorites] = useState(() => {
     try {
       return JSON.parse(localStorage.getItem("favorites")) || [];
@@ -17,19 +16,17 @@ export default function RecipeDetail() {
     }
   });
 
-  // Keep localStorage in sync whenever favorites change
   useEffect(() => {
     localStorage.setItem("favorites", JSON.stringify(favorites));
   }, [favorites]);
 
-  // Check whether this recipe is already in favorites
   const isFavorited = favorites.includes(recipeId);
 
   const toggleFavorite = () => {
     setFavorites((prev) =>
       isFavorited
-        ? prev.filter((rid) => rid !== recipeId)      // remove
-        : [...prev, recipeId]                        // add
+        ? prev.filter((rid) => rid !== recipeId)
+        : [...prev, recipeId]
     );
   };
 
@@ -43,52 +40,64 @@ export default function RecipeDetail() {
   const handleSave = () => {
     const key = `${date}_${time}`;
     localStorage.setItem(key, JSON.stringify(recipe));
-    navigate(
-      `/planner/slot?date=${encodeURIComponent(date)}&time=${encodeURIComponent(time)}`
-    );
+    navigate(`/planner/slot?date=${encodeURIComponent(date)}&time=${encodeURIComponent(time)}`);
+  };
+
+  const handleBack = () => {
+    if (date && time) {
+      navigate(`/search?date=${encodeURIComponent(date)}&time=${encodeURIComponent(time)}`);
+    } else {
+      navigate('/');
+    }
   };
 
   return (
-    <div className="recipe-detail">
-      <div style={{ marginBottom: date && time ? "2rem" : "0" }}>
-        <h1>{recipe.title}</h1>
-        <img src={recipe.image} alt={recipe.title} />
-        <p>{recipe.description}</p>
+    <div className="recipe-detail" style={{ padding: '2rem' }}>
+      {/* 🔙 Back to Explore Button - Smart routing */}
+      <button
+        className="btn"
+        onClick={handleBack}
+        style={{ marginBottom: '1.5rem' }}
+      >
+        ← Back to Explore
+      </button>
 
-        {/* Favorite Button */}
-        <button
-          className="btn-favorite"
-          onClick={toggleFavorite}
-          style={{ margin: "1rem 0" }}
-        >
-          {isFavorited ? "★ Remove from Favorites" : "☆ Add to Favorites"}
-        </button>
+      <h1>{recipe.title}</h1>
+      <img src={recipe.image} alt={recipe.title} />
+      <p>{recipe.description}</p>
 
-        <h2>Ingredients:</h2>
-        <ul>
-          {recipe.ingredients.map((ing, idx) => (
-            <li key={idx}>{ing}</li>
-          ))}
-        </ul>
+      <button
+        className="btn-favorite"
+        onClick={toggleFavorite}
+        style={{ margin: "1rem 0" }}
+      >
+        {isFavorited ? "★ Remove from Favorites" : "☆ Add to Favorites"}
+      </button>
 
-        <h2>Directions:</h2>
-        <ol>
-          {recipe.directions.map((step, index) => (
-            <li key={index}>{step}</li>
-          ))}
-        </ol>
+      <h2>Ingredients:</h2>
+      <ul>
+        {recipe.ingredients.map((ing, idx) => (
+          <li key={idx}>{ing}</li>
+        ))}
+      </ul>
 
-        <h3>Difficulty: {recipe.difficulty}</h3>
-        <h3>Prep Time: {recipe.prepTime}</h3>
+      <h2>Directions:</h2>
+      <ol>
+        {recipe.directions.map((step, index) => (
+          <li key={index}>{step}</li>
+        ))}
+      </ol>
 
-        <h3>Nutrition:</h3>
-        <ul>
-          <li>Calories: {recipe.nutrition.calories}</li>
-          <li>Protein: {recipe.nutrition.protein_g}g</li>
-          <li>Fat: {recipe.nutrition.fat_g}g</li>
-          <li>Carbs: {recipe.nutrition.carbs_g}g</li>
-        </ul>
-      </div>
+      <h3>Difficulty: {recipe.difficulty}</h3>
+      <h3>Prep Time: {recipe.prepTime}</h3>
+
+      <h3>Nutrition:</h3>
+      <ul>
+        <li>Calories: {recipe.nutrition.calories}</li>
+        <li>Protein: {recipe.nutrition.protein_g}g</li>
+        <li>Fat: {recipe.nutrition.fat_g}g</li>
+        <li>Carbs: {recipe.nutrition.carbs_g}g</li>
+      </ul>
 
       {date && time && (
         <div style={{ marginTop: "2rem", textAlign: "center" }}>
