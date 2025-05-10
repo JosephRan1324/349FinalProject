@@ -29,14 +29,21 @@ export default function Signup() {
       return;
     }
 
+    if (password !== confirmPassword) {
+      alert('Passwords do not match.');
+      return;
+    }
+
     if (!agreed) {
       alert('You must agree to the terms.');
       return;
     }
 
+    // Save user info and mark as logged in
     localStorage.setItem('user', JSON.stringify({ username, email }));
     localStorage.setItem('loggedIn', 'true');
     navigate('/profile');
+    window.location.reload(); // ✅ Ensures app reloads and reads logged-in state
   };
 
   return (
@@ -159,6 +166,7 @@ export default function Signup() {
   );
 }
 
+// Styles
 const inputStyle = {
   width: '100%',
   padding: '0.75rem',

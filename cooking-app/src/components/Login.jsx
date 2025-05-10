@@ -12,6 +12,7 @@ export default function Login() {
     if (email.trim() && password.trim()) {
       localStorage.setItem('loggedIn', 'true');
       navigate('/');
+      window.location.reload(); // ✅ Ensures login state is applied
     } else {
       alert('Both fields must be filled out.');
     }
@@ -20,6 +21,7 @@ export default function Login() {
   const handleGuest = () => {
     localStorage.setItem('loggedIn', 'true');
     navigate('/');
+    window.location.reload(); // ✅ Reload triggers login state properly
   };
 
   return (
@@ -53,14 +55,13 @@ export default function Login() {
 
       {/* Main Content */}
       <div style={{ display: 'flex', flex: 1 }}>
-        {/* Left Panel with Background */}
+        {/* Left Panel */}
         <div style={{
           flex: 1,
           backgroundImage: "url('/images/backgroundlogin.jpg')",
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           display: 'flex',
-          flexDirection: 'column',
           justifyContent: 'center',
           alignItems: 'center',
           padding: '2rem'

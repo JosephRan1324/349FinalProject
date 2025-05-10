@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import {
   BrowserRouter,
   Routes,
@@ -20,12 +20,12 @@ import SearchPage from './components/SearchPage';
 import NavBar from './components/NavBar';
 import Login from './components/Login';
 import Signup from './components/Signup';
-import Profile from './components/Profile'; // ✅ new profile component
+import Profile from './components/Profile';
 
 function Layout() {
   const location = useLocation();
-  const [displayedRecipes, setDisplayedRecipes] = useState(recipesData);
-  const [currentPage, setCurrentPage] = useState(1);
+  const [displayedRecipes, setDisplayedRecipes] = React.useState(recipesData);
+  const [currentPage, setCurrentPage] = React.useState(1);
 
   const recipesPerPage = 20;
   const totalPages = Math.ceil(displayedRecipes.length / recipesPerPage);
@@ -104,7 +104,7 @@ function Layout() {
         <Route path="/planner/day" element={<DayPlanner />} />
         <Route path="/planner/slot" element={<TimeSlotPage />} />
         <Route path="/search" element={<SearchPage recipes={displayedRecipes} />} />
-        <Route path="/profile" element={<Profile />} /> {/* ✅ Now renders new Profile component */}
+        <Route path="/profile" element={<Profile />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
@@ -113,12 +113,7 @@ function Layout() {
 }
 
 export default function App() {
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
-
-  useEffect(() => {
-    const status = localStorage.getItem("loggedIn");
-    setIsLoggedIn(status === "true");
-  }, []);
+  const isLoggedIn = localStorage.getItem("loggedIn") === "true";
 
   return (
     <BrowserRouter>
